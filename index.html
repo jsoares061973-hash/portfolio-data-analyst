@@ -268,7 +268,7 @@
           <div class="project-kicker">
             <span>dbt</span><span>Snowflake</span><span>SQL</span><span>Power BI</span><span>Data quality</span><span>RGPD</span>
           </div>
-          <h3 id="project-p8-title">Fiabiliser un pipeline dbt et analyser l’évolution des profils étudiants</h3>
+          <h3 id="project-p8-title">Construire un pipeline dbt sur Snowflake pour analyser les profils étudiants</h3>
           <p class="project-summary">
             <strong>Contexte et besoin :</strong> OpenClassrooms souhaite comprendre l’évolution du profil des
             étudiants Data entre 2022 et 2025 et comparer le profil 2025 à la population INSEE afin d’éclairer les
@@ -287,9 +287,10 @@
             <div>
               <h4>Démarche</h4>
               <ul>
-                <li>Pipeline Snowflake/dbt séparé en sources, staging, intermediate, marts et export</li>
+                <li>Snowflake pour centraliser les sources et tables ; dbt pour transformer, tester et documenter</li>
+                <li>Pipeline séparé en sources, staging, intermediate, marts et export Power BI</li>
                 <li>Harmonisation du genre, des tranches d’âge, des régions et du périmètre INSEE comparable</li>
-                <li>Tests dbt et contrôles de cohérence entre modèles, CSV final et visualisations Power BI</li>
+                <li>Tests dbt et contrôles de cohérence entre modèles, CSV final et visualisations</li>
               </ul>
             </div>
             <div>
@@ -320,6 +321,72 @@
             harmonisées ; il contextualise les écarts sans établir de causalité. Les prochains contrôles à automatiser
             concernent la non-négativité des effectifs, la recomposition des parts à environ 100 %, le périmètre
             d’analyse et la conservation d’une preuve d’exécution de <code>dbt test</code>.
+          </p>
+        </div>
+      </article>
+
+      <article class="featured-project" aria-labelledby="project-p11-title">
+        <div class="project-visual">
+          <span class="project-number project-number-inline">Projet 11 · ACP &amp; clustering</span>
+          <img src="p11-market-priorities.png" alt="Shortlist de marchés prioritaires pour l'exportation de poulet biologique, accompagnée du score de priorisation">
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Python</span><span>Pandas</span><span>ACP</span><span>CAH</span><span>K-means</span><span>Analyse de marché</span>
+          </div>
+          <h3 id="project-p11-title">Prioriser six marchés d’exportation grâce à l’ACP et au clustering</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> La poule qui chante souhaite développer l’exportation de poulet
+            biologique sans disposer au départ d’une liste de pays cibles. L’analyse doit couvrir le marché mondial,
+            identifier des profils homogènes et fournir au COMEX une shortlist argumentée.
+          </p>
+          <p class="project-data"><strong>Données :</strong> 163 pays et 30 colonnes consolidés à partir de sources ouvertes FAO, Banque mondiale, WGI, WITS, Doing Business et Our World in Data. Quatorze indicateurs quantitatifs couvrent le marché de la volaille, l’économie, les institutions, la logistique, le commerce et le contexte bio ; la base finale ne comporte ni valeur manquante ni code ISO3 dupliqué.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>163</strong><span>pays comparés dans la base finale</span></div>
+            <div class="fact"><strong>14</strong><span>indicateurs quantitatifs standardisés</span></div>
+            <div class="fact"><strong>82,93 %</strong><span>de la variance conservée sur six axes</span></div>
+            <div class="fact"><strong>6</strong><span>marchés retenus en priorité 1</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Sélection des variables selon un cadre PESTEL et création d’indicateurs métier</li>
+                <li>ACP pour réduire la redondance, puis classification de Ward sur les six premiers axes</li>
+                <li>Comparaison avec k-means et interprétation de cinq profils de marchés</li>
+                <li>Score pondéré et filtres business pour transformer les résultats en shortlist</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Passer de 163 pays à six cibles prioritaires : Hong Kong, Allemagne, Royaume-Uni, Japon, Pays-Bas et Émirats arabes unis</li>
+                <li>Identifier cinq profils, dont les marchés attractifs et les marchés dépendants des importations</li>
+                <li>Concentrer l’étude commerciale qualitative sur la demande bio, les prix, la distribution, la concurrence et la réglementation</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Quatre compétences validées :</strong> exploitation d’un modèle d’apprentissage, analyses multivariées, réduction de dimension et sélection de variables. L’évaluateur confirme la pertinence des recommandations, la justification des choix et la bonne compréhension de l’ACP et du clustering.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables de l’étude de marché internationale">
+            <a class="resource-link resource-link-primary" href="p11-analysis-notebook.ipynb">Notebook d’analyse</a>
+            <a class="resource-link" href="p11-preparation-notebook.ipynb">Notebook de préparation</a>
+            <a class="resource-link" href="p11-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="p11-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> l’analyse est quantitative et repose principalement sur
+            des données de 2017, dont la précision varie selon les sources. Les pondérations du score sont des
+            hypothèses métier et l’indicateur bio reste un proxy. Une validation qualitative de la demande, des prix,
+            des circuits de distribution, de la concurrence et des exigences sanitaires est nécessaire avant décision.
           </p>
         </div>
       </article>
@@ -453,7 +520,7 @@
           <h2>Compétences démontrées à travers l’ensemble du portfolio.</h2>
         </div>
         <div class="skill-list" aria-label="Principales compétences">
-          <span>Python</span><span>SQL</span><span>Power BI</span><span>dbt</span><span>Data visualisation</span><span>Machine learning</span>
+          <span>Python</span><span>SQL</span><span>Power BI</span><span>dbt</span><span>Snowflake</span><span>Data visualisation</span><span>Machine learning</span><span>Analyse multivariée</span><span>Clustering</span>
         </div>
       </section>
 

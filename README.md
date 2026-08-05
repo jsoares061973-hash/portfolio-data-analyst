@@ -9,6 +9,7 @@ Portfolio professionnel présentant des projets de data analyse sous une lecture
 - détection automatique de faux billets : comparaison de modèles, classification, K-means et script de prédiction ;
 - pilotage d’un portefeuille de projets avec Power BI : Power Query, DAX, modèle en étoile, reporting interactif et RLS ;
 - analyse sociodémographique avec dbt : Snowflake, modèles SQL en couches, tests, export agrégé et benchmark INSEE ;
+- étude de marché internationale : cadre PESTEL, ACP, CAH, k-means et priorisation de marchés d’exportation ;
 - création et interrogation d’une base de données immobilière : modèle relationnel, SQL métier, qualité et RGPD ;
 - étude de cas : performance commerciale et marketing d’un e-commerce ;
 - compétences principales ;
@@ -54,6 +55,15 @@ Les données sources pédagogiques ne sont pas redistribuées. Le fichier PBIX c
 - synthèse publique du besoin, des données, des résultats, des recommandations et des limites.
 
 Les seeds internes comportant des identifiants individuels ne sont pas publiés. Le workflow public conserve le code et la structure nécessaires pour examiner la démarche sans exposer ces données.
+
+## Preuves de l’étude de marché internationale
+
+- notebook de préparation, nettoyage, harmonisation et enrichissement des sources ouvertes ;
+- notebook d’ACP, de classification hiérarchique, de k-means et de priorisation ;
+- présentation COMEX décrivant la méthodologie, les résultats, la shortlist et les limites ;
+- synthèse publique du besoin, des données, de la démarche, des recommandations et des prochaines étapes.
+
+Les données sources ne sont pas redistribuées. Les notebooks conservent leurs sorties et documentent les sources nécessaires à leur réexécution.
 
 ## Preuves du projet SQL immobilier
 
