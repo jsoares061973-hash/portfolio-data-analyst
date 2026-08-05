@@ -58,6 +58,73 @@
         </p>
       </section>
 
+      <article class="featured-project featured-project-wide" aria-labelledby="project-bottleneck-title">
+        <div class="project-visual project-visual-wide">
+          <img src="bottleneck-stock-segmentation.png" alt="Comparaison du nombre de produits et de la valeur du stock pour cinq profils de stock BottleNeck">
+          <span class="project-number">Projet phare · P6 enrichi par l’IA</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Python</span><span>Pandas</span><span>scikit-learn</span><span>Pandera</span><span>IA</span>
+          </div>
+          <h3 id="project-bottleneck-title">Fiabiliser les données et piloter les ventes et les stocks d’un e-commerce</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> transformation de trois sources ERP et Web hétérogènes en une base
+            analytique contrôlée, puis utilisation de méthodes statistiques et
+            de POC de machine learning pour prioriser les anomalies, les ruptures
+            et les risques d’immobilisation financière.
+          </p>
+          <p class="project-data"><strong>Données :</strong> trois fichiers pédagogiques ERP, Web et liaison ; extraction de stock au 31 octobre et ventes du mois d’octobre. Les données brutes ne sont pas publiées dans ce portfolio.</p>
+
+          <div class="fact-grid fact-grid-wide">
+            <div class="fact"><strong>714</strong><span>produits rapprochés et contrôlés</span></div>
+            <div class="fact"><strong>143 680,10 €</strong><span>de chiffre d’affaires TTC analysé</span></div>
+            <div class="fact"><strong>41</strong><span>anomalies documentées, dont 18 prioritaires</span></div>
+            <div class="fact"><strong>≈ 109 971 €</strong><span>de stock exposé à un risque d’immobilisation</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Rapprochement ERP–Web et journalisation des anomalies</li>
+                <li>Comparaison IQR/Z-score, Pearson/Spearman et trois modèles prédictifs</li>
+                <li>Segmentation K-means des profils de stock et POC de validation Pandera</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Prioriser 22 références vendues mais en rupture</li>
+                <li>Cibler 27 produits présentant un risque d’immobilisation</li>
+                <li>Formaliser des contrôles réutilisables sans automatiser la décision métier</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Preuves produites :</strong> notebook reproductible, journal d’anomalies, POC prédictif, segmentation des stocks, contrat Pandera et documentation critique de l’usage de l’IA.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet BottleNeck">
+            <a class="resource-link resource-link-primary" href="bottleneck-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link" href="bottleneck-demarche-ia.pdf" target="_blank" rel="noopener">Lire la démarche</a>
+            <a class="resource-link" href="bottleneck-mini-formation.pdf" target="_blank" rel="noopener">Voir la mini-formation</a>
+            <a class="resource-link" href="bottleneck-readme.md" target="_blank" rel="noopener">README technique</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> les données couvrent un seul mois. Le POC
+            prédictif n’est pas destiné à un usage opérationnel et la stabilité
+            des clusters doit être vérifiée sur plusieurs périodes. La prochaine
+            étape consiste à constituer un historique et à valider les modèles
+            chronologiquement.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p2-title">
         <div class="project-visual">
           <img src="p2-ecommerce-conversion.png" alt="Graphique du taux de conversion mensuel accompagné de son interprétation métier">
@@ -70,10 +137,11 @@
           </div>
           <h3 id="project-p2-title">Analyser les performances commerciales et marketing d’un e-commerce</h3>
           <p class="project-summary">
-            Création d’un rapport mensuel et d’un tableau de bord pour suivre le
+            <strong>Contexte et besoin :</strong> création d’un rapport mensuel et d’un tableau de bord pour suivre le
             chiffre d’affaires, la conversion, le trafic et le comportement des
             clients, puis transformer les constats en actions marketing.
           </p>
+          <p class="project-data"><strong>Données :</strong> 660 transactions et données de trafic, de ventes et de clients affiliés analysées dans Excel sur la période étudiée.</p>
 
           <div class="fact-grid">
             <div class="fact"><strong>39 662,72 €</strong><span>de chiffre d’affaires affilié en février</span></div>
@@ -92,7 +160,7 @@
               </ul>
             </div>
             <div>
-              <h4>Impact métier</h4>
+              <h4>Résultats, impact et recommandations</h4>
               <ul>
                 <li>Prioriser les segments moteurs de croissance</li>
                 <li>Optimiser le parcours de conversion</li>
@@ -107,9 +175,10 @@
           </div>
 
           <p class="project-limit">
-            <strong>Limite :</strong> les résultats décrivent la période étudiée
+            <strong>Limites et prochaines pistes :</strong> les résultats décrivent la période étudiée
             et ne permettent pas, seuls, d’établir une causalité entre le temps
-            passé sur le site et le montant du panier.
+            passé sur le site et le montant du panier. Un suivi régulier permettra
+            de vérifier la stabilité des tendances et l’effet des actions marketing.
           </p>
         </div>
       </article>
