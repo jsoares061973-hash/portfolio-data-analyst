@@ -55,7 +55,7 @@ h2 { font-size: clamp(2rem,4vw,3.5rem); letter-spacing: -.035em; }
 .section, .split-section, .about-section { padding: clamp(72px,9vw,120px) clamp(24px,7vw,110px); }
 .section-intro { align-items: end; display: grid; gap: 60px; grid-template-columns: 1fr 1fr; }
 .section-intro > p { color: var(--muted); font-size: 1.1rem; margin: 0; max-width: 620px; }
-.project-index { display: grid; gap: 12px; grid-template-columns: repeat(4,minmax(0,1fr)); margin: -52px clamp(24px,7vw,110px) clamp(72px,9vw,120px); }
+.project-index { display: grid; gap: 12px; grid-template-columns: repeat(5,minmax(0,1fr)); margin: -52px clamp(24px,7vw,110px) clamp(72px,9vw,120px); }
 .project-index a { background: var(--soft); border: 1px solid var(--line); border-radius: 12px; color: var(--navy); display: flex; flex-direction: column; font-size: .88rem; font-weight: 750; min-height: 78px; padding: 14px 16px; }
 .project-index a:hover, .project-index a:focus-visible { background: #eaf2fd; border-color: var(--blue); }
 .project-index span { color: var(--blue-dark); font-size: .72rem; letter-spacing: .1em; margin-bottom: 3px; text-transform: uppercase; }
@@ -146,6 +146,10 @@ h2 { font-size: clamp(2rem,4vw,3.5rem); letter-spacing: -.035em; }
 footer { align-items: center; background: #0a172b; color: #dce7f7; display: flex; justify-content: space-between; padding: 28px clamp(24px,7vw,110px); }
 footer a { color: #8bded5; font-weight: 700; }
 .footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
+
+@media (max-width: 1200px) {
+  .project-index { grid-template-columns: repeat(4,minmax(0,1fr)); }
+}
 
 @media (max-width: 900px) {
   .desktop-nav { display: none; }

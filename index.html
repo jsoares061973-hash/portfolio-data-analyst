@@ -72,11 +72,13 @@
 
       <nav class="project-index" aria-label="Accès rapide aux projets">
         <a href="#project-bottleneck-title"><span>P13 / P6</span>BottleNeck &amp; IA</a>
+        <a href="#project-p10-title"><span>P10</span>Power BI &amp; WASH</a>
         <a href="#project-p12-title"><span>P12</span>Machine learning</a>
         <a href="#project-p7-title"><span>P7</span>Power BI</a>
         <a href="#project-p8-title"><span>P8</span>dbt &amp; Snowflake</a>
         <a href="#project-p9-title"><span>P9</span>Ventes &amp; statistiques</a>
         <a href="#project-p11-title"><span>P11</span>ACP &amp; clustering</a>
+        <a href="#project-p4-title"><span>P4</span>Sécurité alimentaire</a>
         <a href="#project-p5-title"><span>P5</span>SQL &amp; RGPD</a>
         <a href="#project-p2-title"><span>P2</span>Excel &amp; storytelling</a>
       </nav>
@@ -146,6 +148,77 @@
             des clusters doit être vérifiée sur plusieurs périodes. La prochaine
             étape consiste à constituer un historique et à valider les modèles
             chronologiquement.
+          </p>
+          </details>
+        </div>
+      </article>
+
+      <article class="featured-project featured-project-wide" aria-labelledby="project-p10-title">
+        <div class="project-visual project-visual-wide">
+          <img src="p10-dwfa-dashboard-cover.png" alt="Vue mondiale du tableau de bord DWFA présentant l’accès à l’eau potable, la mortalité WASH et les pays prioritaires">
+          <span class="project-number">Projet 10 · Power BI &amp; WASH</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Modélisation</span><span>Data visualisation</span>
+          </div>
+          <h3 id="project-p10-title">Prioriser les interventions d’accès à l’eau grâce à un dashboard décisionnel</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> DWFA souhaite identifier les pays où ses interventions seraient les
+            plus pertinentes et choisir entre trois domaines d’expertise&nbsp;: création de services, modernisation des
+            infrastructures et conseil aux administrations. Le tableau de bord transforme des indicateurs internationaux
+            en priorités d’investissement explicables.
+          </p>
+          <p class="project-data"><strong>Données :</strong> accès de base et sécurisé à l’eau potable, population, mortalité liée aux services WASH, stabilité politique et référentiel pays-région. Les valeurs manquantes sont conservées comme indisponibles afin d’éviter de les confondre avec des zéros.</p>
+
+          <div class="fact-grid fact-grid-wide">
+            <div class="fact"><strong>3</strong><span>niveaux d’analyse : monde, région et pays</span></div>
+            <div class="fact"><strong>3</strong><span>domaines d’intervention comparés</span></div>
+            <div class="fact"><strong>7,5 Md</strong><span>de personnes couvertes sur l’année de référence</span></div>
+            <div class="fact"><strong>9,7 pts</strong><span>d’écart entre accès de base et sécurisé</span></div>
+          </div>
+
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Harmonisation des pays, années et régions dans Power Query</li>
+                <li>Modèle relationnel, mesures DAX et contrôles de mise à jour</li>
+                <li>Vues mondiale, continentale et nationale avec filtres interactifs</li>
+                <li>Pages métier dédiées à la création, la modernisation et au consulting</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Faire ressortir le Tchad, le Soudan du Sud, l’Éthiopie et la RDC parmi les situations critiques</li>
+                <li>Distinguer les besoins d’accès initial des besoins de sécurisation des services existants</li>
+                <li>Intégrer la stabilité politique comme critère de faisabilité, sans la confondre avec le besoin humanitaire</li>
+                <li>Compléter la priorisation quantitative par une analyse terrain avant décision</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Preuves produites :</strong> dashboard Power BI de dix pages, blueprint fonctionnel, préparation Power Query, modèle relationnel, indicateurs DAX, documentation de mise à jour et présentation décisionnelle.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet DWFA">
+            <a class="resource-link resource-link-primary" href="p10-dwfa-dashboard.pdf" target="_blank" rel="noopener">Explorer le dashboard</a>
+            <a class="resource-link" href="p10-dwfa-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="p10-dwfa-blueprint.pdf" target="_blank" rel="noopener">Consulter le blueprint</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p10-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> la couverture et l’année disponible varient selon les
+            indicateurs. L’indice d’efficacité WASH est construit pour cette analyse et ne constitue pas un indicateur
+            officiel. Une décision d’intervention exige également des informations terrain sur les infrastructures,
+            les financements et les partenaires locaux.
           </p>
           </details>
         </div>
@@ -495,6 +568,75 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p4-title">
+        <div class="project-visual">
+          <img src="p4-food-security-cover.png" alt="Comparaison entre la population mondiale et le nombre théorique de personnes pouvant être nourries en 2017">
+          <span class="project-number">Projet 04 · Santé publique</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Python</span><span>Pandas</span><span>FAO</span><span>Data visualisation</span><span>Analyse exploratoire</span>
+          </div>
+          <h3 id="project-p4-title">Montrer que la sécurité alimentaire dépend de l’accès autant que de la disponibilité</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> analyse mondiale de données FAO afin d’identifier les zones de
+            sous-nutrition, de comparer disponibilité et usages alimentaires, de suivre l’aide internationale et
+            d’expliquer des paradoxes entre production, exportation et accès réel à l’alimentation.
+          </p>
+          <p class="project-data"><strong>Données :</strong> quatre sources publiques FAO sur la population, la sous-nutrition, la disponibilité alimentaire et l’aide reçue. Les fichiers ont été nettoyés, contrôlés et rapprochés par pays et période ; aucune donnée personnelle n’est traitée.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>≈ 536 M</strong><span>de personnes en sous-nutrition en 2017</span></div>
+            <div class="fact"><strong>≈ 7 %</strong><span>de la population mondiale concernée</span></div>
+            <div class="fact"><strong>9,1 Md</strong><span>de personnes théoriquement nourrissables</span></div>
+            <div class="fact"><strong>7,55 Md</strong><span>avec les seuls produits végétaux</span></div>
+          </div>
+
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Nettoyage, contrôle des unités et jointure de quatre fichiers FAO</li>
+                <li>Calcul des taux de sous-nutrition et de la capacité alimentaire théorique</li>
+                <li>Analyse de l’utilisation intérieure, des céréales et de l’aide reçue</li>
+                <li>Étude du paradoxe de l’exportation de manioc en Thaïlande</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Montrer qu’une disponibilité calorique mondiale suffisante ne garantit pas un accès équitable</li>
+                <li>Mettre en évidence la concentration des vulnérabilités en Afrique subsaharienne</li>
+                <li>Relier l’analyse alimentaire aux enjeux de distribution, de gouvernance et de stabilité</li>
+                <li>Traiter les données manquantes comme une limite d’observation, non comme une absence de besoin</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Preuves produites :</strong> notebook Python entièrement exécuté de 178 cellules, contrôles de cohérence, calculs documentés, visualisations comparatives, étude de cas et présentation de seize pages.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables de l’étude de santé publique">
+            <a class="resource-link resource-link-primary" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p4-food-security-notebook.ipynb" target="_blank" rel="noopener">Voir le notebook sur GitHub</a>
+            <a class="resource-link" href="p4-food-security-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p4-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> la capacité à nourrir repose sur une hypothèse moyenne de
+            2&nbsp;300 kcal par personne et par jour ; elle représente un potentiel théorique, pas l’accès réel. Les
+            périodes et la complétude varient selon les sources FAO, et les associations observées ne démontrent pas
+            à elles seules une causalité. Une actualisation avec des données plus récentes renforcerait l’analyse.
+          </p>
+          </details>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p5-title">
         <div class="project-visual">
           <img src="p5-sql-query.png" alt="Requête SQL comptant 31 378 appartements vendus au premier semestre 2020">
@@ -630,7 +772,7 @@
           <h2>Compétences démontrées à travers l’ensemble du portfolio.</h2>
         </div>
         <div class="skill-list" aria-label="Principales compétences">
-          <span>Python</span><span>SQL</span><span>Power BI</span><span>dbt</span><span>Snowflake</span><span>Data visualisation</span><span>Analyse temporelle</span><span>Tests statistiques</span><span>Machine learning</span><span>Analyse multivariée</span><span>Clustering</span>
+          <span>Python</span><span>SQL</span><span>Power BI</span><span>Power Query</span><span>DAX</span><span>dbt</span><span>Snowflake</span><span>Data visualisation</span><span>Données publiques</span><span>Analyse temporelle</span><span>Tests statistiques</span><span>Machine learning</span><span>Analyse multivariée</span><span>Clustering</span>
         </div>
       </section>
 
