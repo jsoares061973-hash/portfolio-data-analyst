@@ -258,6 +258,71 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p5-title">
+        <div class="project-visual">
+          <img src="p5-sql-query.png" alt="Requête SQL comptant 31 378 appartements vendus au premier semestre 2020">
+          <span class="project-number">Projet 05 · SQL</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>SQL</span><span>SQLite</span><span>Modélisation relationnelle</span><span>Data quality</span><span>RGPD</span>
+          </div>
+          <h3 id="project-p5-title">Concevoir une base immobilière conforme au RGPD et éclairer le marché avec SQL</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> Laplace Immo doit consolider plusieurs sources immobilières dans
+            une base relationnelle fiable, puis répondre à des questions métier sur les volumes de vente, les prix,
+            les régions et les communes, tout en limitant l’usage de données personnelles.
+          </p>
+          <p class="project-data"><strong>Données :</strong> trois jeux pédagogiques — données communales, référentiel géographique et 34 169 valeurs foncières — nettoyés, typés et rapprochés. Un dictionnaire formalise les variables, les clés et les règles de gestion ; les données brutes ne sont pas publiées.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>4</strong><span>tables relationnelles normalisées</span></div>
+            <div class="fact"><strong>12</strong><span>requêtes répondant aux questions métier</span></div>
+            <div class="fact"><strong>31 378</strong><span>appartements vendus au S1 2020</span></div>
+            <div class="fact"><strong>≈ 11 136 €</strong><span>par m² observés à Paris</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Dictionnaire de données et modèle en troisième forme normale avec clés primaires et étrangères</li>
+                <li>Implémentation des tables Bien, Vente, Commune et Population, puis contrôles de chargement</li>
+                <li>Requêtes avec jointures, agrégations, filtres, alias, sous-requêtes ou tables temporaires</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Comparer les volumes et les prix au mètre carré par région, département et commune</li>
+                <li>Rapporter les transactions à la population pour éviter une lecture biaisée par la taille des villes</li>
+                <li>Écarter le nom de l’acquéreur et limiter la base aux informations nécessaires à l’analyse</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Trois compétences validées :</strong> création et gestion d’une base relationnelle, requêtes SQL orientées métier et mise en conformité RGPD. L’évaluation confirme le fonctionnement et la justesse des résultats.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet SQL immobilier">
+            <a class="resource-link resource-link-primary" href="p5-data-dictionary.xlsx">Télécharger le dictionnaire</a>
+            <a class="resource-link" href="p5-relational-schema.png" target="_blank" rel="noopener">Voir le schéma relationnel</a>
+            <a class="resource-link" href="p5-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> l’analyse couvre uniquement le premier semestre 2020
+            et certaines petites surfaces peuvent influencer fortement les prix au mètre carré. La prochaine étape
+            serait de versionner les requêtes dans des fichiers SQL séparés, d’automatiser les contrôles de chargement
+            et d’actualiser la base. Le ZIP évalué ne comportant pas de script SQL autonome, aucun fichier reconstruit
+            n’est présenté comme livrable original.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p2-title">
         <div class="project-visual">
           <img src="p2-ecommerce-conversion.png" alt="Graphique du taux de conversion mensuel accompagné de son interprétation métier">

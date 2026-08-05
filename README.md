@@ -8,6 +8,7 @@ Portfolio professionnel présentant des projets de data analyse sous une lecture
 - projet phare BottleNeck : qualité des données, analyse des ventes et des stocks, machine learning et usage critique de l’IA ;
 - détection automatique de faux billets : comparaison de modèles, classification, K-means et script de prédiction ;
 - pilotage d’un portefeuille de projets avec Power BI : Power Query, DAX, modèle en étoile, reporting interactif et RLS ;
+- création et interrogation d’une base de données immobilière : modèle relationnel, SQL métier, qualité et RGPD ;
 - étude de cas : performance commerciale et marketing d’un e-commerce ;
 - compétences principales ;
 - démarche de veille métier et technologique.
@@ -42,3 +43,12 @@ Les données pédagogiques d’origine et le modèle sérialisé ne sont pas red
 - synthèse publique des données, méthodes, résultats, décisions et limites.
 
 Les données sources pédagogiques ne sont pas redistribuées. Le fichier PBIX conserve le rapport, les transformations, les mesures et le modèle nécessaires à l’examen du projet.
+
+## Preuves du projet SQL immobilier
+
+- dictionnaire des données décrivant quatre tables, leurs types, leurs clés et leurs règles de gestion ;
+- schéma relationnel normalisé reliant les biens, les ventes, les communes et la population ;
+- capture d’une requête SQL et de son résultat ;
+- synthèse publique du besoin, des données, de la démarche, des résultats et des limites.
+
+Les données foncières pédagogiques ne sont pas redistribuées. Le ZIP évalué ne contenant pas de script SQL autonome, aucun script reconstruit n’est présenté comme livrable original.
