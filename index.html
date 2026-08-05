@@ -190,6 +190,74 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p7-title">
+        <div class="project-visual">
+          <div class="dashboard-crop" role="img" aria-label="Vue globale du tableau de bord Power BI présentant les coûts par région, les projets en alerte et les projets à risque">
+            <img src="p7-powerbi-global-view.png" alt="">
+          </div>
+          <span class="project-number">Projet 07 · Power BI</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Power BI</span><span>Power Query</span><span>DAX</span><span>Modèle en étoile</span><span>RLS</span>
+          </div>
+          <h3 id="project-p7-title">Piloter un portefeuille de projets et prioriser les dérives</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> conception pour Sanitoral d’un tableau de bord destiné à la
+            direction générale, aux directeurs régionaux et aux directeurs pays. L’objectif est de consolider la
+            performance du portefeuille, de détecter les dérives et de concentrer les actions sur les projets ayant
+            le plus fort impact métier et financier.
+          </p>
+          <p class="project-data"><strong>Données :</strong> jeu pédagogique structuré en sept sources couvrant les plans de projet, les coûts, les durées, les livrables, les types de projet, les localisations et les profils pays. Les types, clés, doublons et valeurs manquantes ont été traités dans Power Query ; les données sources ne sont pas publiées.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>104</strong><span>projets suivis dans le portefeuille</span></div>
+            <div class="fact"><strong>50</strong><span>projets en alerte, soit 48,1 %</span></div>
+            <div class="fact"><strong>89,5 %</strong><span>des livrables complétés</span></div>
+            <div class="fact"><strong>1,13 M$</strong><span>d’impact financier cumulé sur le Top 10 à risque</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Product Strategy Canvas, trois profils utilisateurs et besoins décisionnels formalisés</li>
+                <li>Préparation Power Query et modèle en étoile avec table de faits et dimensions</li>
+                <li>Mesures DAX, navigation, filtres, infobulles, Q&amp;A et sécurité Row-Level Security</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Comparer coûts, délais et livrables planifiés et réalisés par région, pays et projet</li>
+                <li>Repérer 50 projets en alerte et hiérarchiser les projets à fort impact financier</li>
+                <li>Orienter les décisions de correction, de réallocation de ressources ou de poursuite</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Compétence validée :</strong> produire un reporting interactif et analyser les visualisations afin de faciliter la décision. L’évaluateur a souligné la qualité de la préparation, du modèle, des KPI, de l’interactivité et de la démonstration.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet Power BI">
+            <a class="resource-link resource-link-primary" href="p7-dashboard.pbix">Télécharger le fichier Power BI</a>
+            <a class="resource-link" href="p7-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="p7-product-strategy-canvas.jpg" target="_blank" rel="noopener">Product Strategy Canvas</a>
+            <a class="resource-link" href="p7-star-schema.jpg" target="_blank" rel="noopener">Voir le modèle de données</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> le dashboard repose sur un instantané pédagogique et
+            sur des seuils de gestion, dont un seuil d’alerte de 15 %, à valider avec les responsables métier.
+            Une évolution de la structure des sources peut affecter les transformations. La prochaine étape est
+            d’organiser l’actualisation, de tester la RLS après publication et d’étudier les tendances historiques.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p2-title">
         <div class="project-visual">
           <img src="p2-ecommerce-conversion.png" alt="Graphique du taux de conversion mensuel accompagné de son interprétation métier">
