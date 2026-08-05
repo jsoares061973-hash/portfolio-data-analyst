@@ -55,6 +55,7 @@ h2 { font-size: clamp(2rem,4vw,3.5rem); letter-spacing: -.035em; }
 .dashboard-crop img { border: 0; box-shadow: none; left: -13.35%; margin: 0; max-width: none; position: absolute; top: -26.96%; width: 122.65%; }
 .project-visual-wide { padding: clamp(32px,5vw,64px); }
 .project-visual-wide img { margin: 16px auto 0; max-width: 1450px; }
+.project-visual-dashboard .dashboard-crop img { border: 0; box-shadow: none; left: -13.35%; margin: 0; max-width: none; position: absolute; top: -26.96%; width: 122.65%; }
 .project-number { background: var(--teal); border-radius: 999px; color: white; font-size: .78rem; font-weight: 800; left: 24px; padding: 8px 13px; position: absolute; top: 24px; }
 .project-number-inline { display: inline-block; left: auto; margin-bottom: 18px; position: static; top: auto; }
 .project-visual-dashboard .dashboard-crop { margin: 0 auto; max-width: 1450px; }
