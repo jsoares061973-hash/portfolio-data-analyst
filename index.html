@@ -125,6 +125,71 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p12-title">
+        <div class="project-visual">
+          <img src="p12-model-selection.png" alt="Synthèse des performances conduisant au choix de la régression logistique pour détecter les faux billets">
+          <span class="project-number">Projet 12 · Machine learning</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Python</span><span>scikit-learn</span><span>Classification</span><span>K-means</span><span>Déploiement</span>
+          </div>
+          <h3 id="project-p12-title">Détecter automatiquement les faux billets et sécuriser la décision de contrôle</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> construction d’un outil capable de classer un billet comme
+            authentique ou faux à partir de six mesures géométriques. Le risque métier prioritaire est le
+            faux billet classé comme authentique, susceptible d’échapper au dispositif de contrôle.
+          </p>
+          <p class="project-data"><strong>Données :</strong> 1 500 billets pédagogiques, dont 1 000 authentiques et 500 faux ; six caractéristiques géométriques, 37 valeurs manquantes sur <em>margin_low</em> et aucun doublon. Les données brutes ne sont pas redistribuées.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>5</strong><span>modèles supervisés et non supervisés comparés</span></div>
+            <div class="fact"><strong>99,0 %</strong><span>d’accuracy sur 300 billets de test</span></div>
+            <div class="fact"><strong>98,0 %</strong><span>de rappel des faux billets</span></div>
+            <div class="fact"><strong>2</strong><span>faux billets non détectés</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Pipeline d’imputation et de standardisation appris uniquement sur l’entraînement</li>
+                <li>Comparaison régression logistique, KNN, Random Forest, SVM et K-means</li>
+                <li>Validation croisée stratifiée, optimisation et analyse des matrices de confusion</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Régression logistique retenue pour son équilibre entre performance et explicabilité</li>
+                <li>297 billets correctement classés sur 300, dont 98 faux sur 100 détectés</li>
+                <li>Script opérationnel testé en direct sur cinq nouveaux billets avec le résultat attendu</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Compétences validées :</strong> prédiction supervisée, segmentation K-means et démonstration en direct réussie du traitement d’un fichier test.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet de détection de faux billets">
+            <a class="resource-link resource-link-primary" href="p12-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link" href="p12-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="p12-prediction.py" target="_blank" rel="noopener">Consulter le script</a>
+            <a class="resource-link" href="p12-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> deux faux billets restent classés comme authentiques.
+            Il est recommandé d’ajuster le seuil de décision selon le coût métier, de suivre la performance sur
+            de nouvelles données et de réentraîner le modèle si nécessaire. Le K-means pourrait être caractérisé
+            plus finement par des distributions et des boîtes à moustaches par cluster.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p2-title">
         <div class="project-visual">
           <img src="p2-ecommerce-conversion.png" alt="Graphique du taux de conversion mensuel accompagné de son interprétation métier">
