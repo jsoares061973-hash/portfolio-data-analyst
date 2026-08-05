@@ -325,6 +325,69 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p9-title">
+        <div class="project-visual">
+          <img src="p9-sales-diagnosis.png" alt="Diagnostic de la baisse du chiffre d’affaires entre janvier et février 2023, liée au recul du nombre de transactions tandis que le panier moyen reste stable">
+          <span class="project-number">Projet 09 · Analyse commerciale &amp; statistique</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>Python</span><span>Pandas</span><span>Séries temporelles</span><span>Tests statistiques</span><span>Segmentation client</span>
+          </div>
+          <h3 id="project-p9-title">Analyser les ventes, la valeur client et les comportements d’achat d’un e-commerce</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> Lapage souhaite évaluer la performance de son activité en ligne,
+            comprendre les variations du chiffre d’affaires et identifier les comportements d’achat utiles au
+            pilotage commercial.
+          </p>
+          <p class="project-data"><strong>Données :</strong> 687 534 lignes de ventes exploitables, 8 600 clients acheteurs et 3 286 produits sur 24 mois, de mars 2021 à février 2023. Les 361 041 lignes entièrement vides de l’export ont été écartées ; les données sources pédagogiques ne sont pas redistribuées.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>12,03 M€</strong><span>de chiffre d’affaires analysé</span></div>
+            <div class="fact"><strong>687 534</strong><span>lignes de ventes exploitables</span></div>
+            <div class="fact"><strong>48,1 %</strong><span>du CA généré par les 20 % de clients les plus contributeurs</span></div>
+            <div class="fact"><strong>15,91 %</strong><span>du CA porté par 2,92 % de clients atypiques</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Contrôle qualité, rapprochement des sources et construction des indicateurs mensuels</li>
+                <li>Analyse valeur/volume des produits et concentration client par Lorenz et méthode IQR</li>
+                <li>Tests Chi² et V de Cramer, Pearson/Spearman, Kruskal-Wallis et Mann-Whitney avec Bonferroni</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>La baisse de CA de février 2023 (-12 %) vient surtout du recul des transactions (-11 %), avec un panier moyen stable</li>
+                <li>Seuls deux produits appartiennent à la fois au Top 10 CA et au Top 10 volume : les deux leviers doivent être pilotés séparément</li>
+                <li>L’âge structure davantage les comportements d’achat que le genre, sans permettre de conclure à une causalité</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Deux compétences validées :</strong> analyse de séries temporelles pour mesurer un phénomène statistique et réalisation de tests statistiques pertinents pour tester les hypothèses. L’évaluation souligne également la lisibilité du notebook et la maîtrise de la soutenance.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables de l’analyse commerciale Lapage">
+            <a class="resource-link resource-link-primary" href="p9-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link" href="p9-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="p9-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> l’analyse temporelle reste descriptive, sans décomposition
+            saisonnière ni prévision. Les marges, stocks, campagnes, données de trafic et statuts BtoB/BtoC ne sont
+            pas disponibles. Les relations mesurées sont des associations statistiques et non des liens de causalité.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p11-title">
         <div class="project-visual">
           <span class="project-number project-number-inline">Projet 11 · ACP &amp; clustering</span>
@@ -520,7 +583,7 @@
           <h2>Compétences démontrées à travers l’ensemble du portfolio.</h2>
         </div>
         <div class="skill-list" aria-label="Principales compétences">
-          <span>Python</span><span>SQL</span><span>Power BI</span><span>dbt</span><span>Snowflake</span><span>Data visualisation</span><span>Machine learning</span><span>Analyse multivariée</span><span>Clustering</span>
+          <span>Python</span><span>SQL</span><span>Power BI</span><span>dbt</span><span>Snowflake</span><span>Data visualisation</span><span>Analyse temporelle</span><span>Tests statistiques</span><span>Machine learning</span><span>Analyse multivariée</span><span>Clustering</span>
         </div>
       </section>
 

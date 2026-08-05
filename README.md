@@ -9,6 +9,7 @@ Portfolio professionnel présentant des projets de data analyse sous une lecture
 - détection automatique de faux billets : comparaison de modèles, classification, K-means et script de prédiction ;
 - pilotage d’un portefeuille de projets avec Power BI : Power Query, DAX, modèle en étoile, reporting interactif et RLS ;
 - analyse sociodémographique avec dbt : Snowflake, modèles SQL en couches, tests, export agrégé et benchmark INSEE ;
+- analyse commerciale et comportement client d’un e-commerce : séries temporelles, concentration client et tests statistiques ;
 - étude de marché internationale : cadre PESTEL, ACP, CAH, k-means et priorisation de marchés d’exportation ;
 - création et interrogation d’une base de données immobilière : modèle relationnel, SQL métier, qualité et RGPD ;
 - étude de cas : performance commerciale et marketing d’un e-commerce ;
@@ -55,6 +56,15 @@ Les données sources pédagogiques ne sont pas redistribuées. Le fichier PBIX c
 - synthèse publique du besoin, des données, des résultats, des recommandations et des limites.
 
 Les seeds internes comportant des identifiants individuels ne sont pas publiés. Le workflow public conserve le code et la structure nécessaires pour examiner la démarche sans exposer ces données.
+
+## Preuves de l’analyse commerciale Lapage
+
+- notebook Python final avec sorties conservées, contrôles qualité et analyse temporelle ;
+- analyse de la concentration du chiffre d’affaires et des profils clients atypiques ;
+- tests statistiques documentés avec mesure de l’intensité des relations ;
+- présentation de dix-neuf slides et synthèse publique des résultats, recommandations et limites.
+
+Les données pédagogiques d’origine ne sont pas redistribuées. Le notebook précise les trois fichiers nécessaires à sa réexécution.
 
 ## Preuves de l’étude de marché internationale
 
