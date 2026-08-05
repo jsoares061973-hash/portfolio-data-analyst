@@ -1,0 +1,403 @@
+﻿YEAR,REGION,GENRE,TRANCHE_AGE,NB_STUDENTS,POPULATION_INSEE_2025,PART_STUDENTS,PART_INSEE,PERIMETRE_ANALYSE
+2022,Auvergne-Rhône-Alpes,Non renseigné,20-39,46,,0.027123,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,Non renseigné,40-59,27,,0.015920,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,Non renseigné,60+,1,,0.000590,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,femme,20-39,19,,0.011203,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,femme,40-59,11,,0.006486,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,femme,60+,1,,0.000590,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,homme,20-39,40,,0.023585,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,homme,40-59,24,,0.014151,,Analyse interne OC
+2022,Auvergne-Rhône-Alpes,homme,60+,2,,0.001179,,Analyse interne OC
+2022,Bourgogne-Franche-Comté,Non renseigné,20-39,7,,0.004127,,Analyse interne OC
+2022,Bourgogne-Franche-Comté,femme,20-39,4,,0.002358,,Analyse interne OC
+2022,Bourgogne-Franche-Comté,femme,40-59,1,,0.000590,,Analyse interne OC
+2022,Bourgogne-Franche-Comté,homme,20-39,10,,0.005896,,Analyse interne OC
+2022,Bourgogne-Franche-Comté,homme,40-59,5,,0.002948,,Analyse interne OC
+2022,Bretagne,Non renseigné,20-39,11,,0.006486,,Analyse interne OC
+2022,Bretagne,Non renseigné,40-59,7,,0.004127,,Analyse interne OC
+2022,Bretagne,Non renseigné,60+,1,,0.000590,,Analyse interne OC
+2022,Bretagne,femme,20-39,6,,0.003538,,Analyse interne OC
+2022,Bretagne,femme,40-59,1,,0.000590,,Analyse interne OC
+2022,Bretagne,homme,20-39,11,,0.006486,,Analyse interne OC
+2022,Bretagne,homme,40-59,8,,0.004717,,Analyse interne OC
+2022,Bretagne,homme,60+,1,,0.000590,,Analyse interne OC
+2022,Centre-Val de Loire,Non renseigné,20-39,12,,0.007075,,Analyse interne OC
+2022,Centre-Val de Loire,Non renseigné,60+,1,,0.000590,,Analyse interne OC
+2022,Centre-Val de Loire,femme,20-39,4,,0.002358,,Analyse interne OC
+2022,Centre-Val de Loire,homme,20-39,13,,0.007665,,Analyse interne OC
+2022,Centre-Val de Loire,homme,40-59,6,,0.003538,,Analyse interne OC
+2022,DROM,Non renseigné,20-39,1,,0.000590,,Analyse interne OC
+2022,DROM,Non renseigné,40-59,1,,0.000590,,Analyse interne OC
+2022,DROM,femme,40-59,3,,0.001769,,Analyse interne OC
+2022,DROM,homme,20-39,4,,0.002358,,Analyse interne OC
+2022,DROM,homme,40-59,5,,0.002948,,Analyse interne OC
+2022,Grand Est,Non renseigné,20-39,27,,0.015920,,Analyse interne OC
+2022,Grand Est,Non renseigné,40-59,12,,0.007075,,Analyse interne OC
+2022,Grand Est,femme,20-39,9,,0.005307,,Analyse interne OC
+2022,Grand Est,femme,40-59,4,,0.002358,,Analyse interne OC
+2022,Grand Est,homme,20-39,28,,0.016509,,Analyse interne OC
+2022,Grand Est,homme,40-59,14,,0.008255,,Analyse interne OC
+2022,Grand Est,homme,60+,1,,0.000590,,Analyse interne OC
+2022,Hauts-de-France,Non renseigné,20-39,24,,0.014151,,Analyse interne OC
+2022,Hauts-de-France,Non renseigné,40-59,18,,0.010613,,Analyse interne OC
+2022,Hauts-de-France,femme,20-39,20,,0.011792,,Analyse interne OC
+2022,Hauts-de-France,femme,40-59,6,,0.003538,,Analyse interne OC
+2022,Hauts-de-France,homme,20-39,25,,0.014741,,Analyse interne OC
+2022,Hauts-de-France,homme,40-59,18,,0.010613,,Analyse interne OC
+2022,Hauts-de-France,homme,60+,2,,0.001179,,Analyse interne OC
+2022,Normandie,Non renseigné,20-39,12,,0.007075,,Analyse interne OC
+2022,Normandie,Non renseigné,40-59,1,,0.000590,,Analyse interne OC
+2022,Normandie,femme,20-39,1,,0.000590,,Analyse interne OC
+2022,Normandie,femme,40-59,3,,0.001769,,Analyse interne OC
+2022,Normandie,homme,20-39,14,,0.008255,,Analyse interne OC
+2022,Normandie,homme,40-59,4,,0.002358,,Analyse interne OC
+2022,Nouvelle-Aquitaine,Non renseigné,20-39,24,,0.014151,,Analyse interne OC
+2022,Nouvelle-Aquitaine,Non renseigné,40-59,19,,0.011203,,Analyse interne OC
+2022,Nouvelle-Aquitaine,Non renseigné,60+,2,,0.001179,,Analyse interne OC
+2022,Nouvelle-Aquitaine,femme,20-39,5,,0.002948,,Analyse interne OC
+2022,Nouvelle-Aquitaine,femme,40-59,14,,0.008255,,Analyse interne OC
+2022,Nouvelle-Aquitaine,homme,20-39,36,,0.021226,,Analyse interne OC
+2022,Nouvelle-Aquitaine,homme,40-59,16,,0.009434,,Analyse interne OC
+2022,Nouvelle-Aquitaine,homme,60+,1,,0.000590,,Analyse interne OC
+2022,Occitanie,Non renseigné,20-39,31,,0.018278,,Analyse interne OC
+2022,Occitanie,Non renseigné,40-59,14,,0.008255,,Analyse interne OC
+2022,Occitanie,Non renseigné,60+,2,,0.001179,,Analyse interne OC
+2022,Occitanie,femme,20-39,9,,0.005307,,Analyse interne OC
+2022,Occitanie,femme,40-59,9,,0.005307,,Analyse interne OC
+2022,Occitanie,homme,20-39,38,,0.022406,,Analyse interne OC
+2022,Occitanie,homme,40-59,11,,0.006486,,Analyse interne OC
+2022,Occitanie,homme,60+,1,,0.000590,,Analyse interne OC
+2022,Pays de la Loire,Non renseigné,20-39,17,,0.010024,,Analyse interne OC
+2022,Pays de la Loire,Non renseigné,40-59,12,,0.007075,,Analyse interne OC
+2022,Pays de la Loire,femme,20-39,4,,0.002358,,Analyse interne OC
+2022,Pays de la Loire,femme,40-59,8,,0.004717,,Analyse interne OC
+2022,Pays de la Loire,homme,20-39,18,,0.010613,,Analyse interne OC
+2022,Pays de la Loire,homme,40-59,6,,0.003538,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,Non renseigné,20-39,25,,0.014741,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,Non renseigné,40-59,15,,0.008844,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,Non renseigné,60+,1,,0.000590,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,femme,20-39,7,,0.004127,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,femme,40-59,7,,0.004127,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,homme,20-39,29,,0.017099,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,homme,40-59,14,,0.008255,,Analyse interne OC
+2022,Provence-Alpes-Côte d'Azur,homme,60+,2,,0.001179,,Analyse interne OC
+2022,Île-de-France,Non renseigné,20-39,225,,0.132665,,Analyse interne OC
+2022,Île-de-France,Non renseigné,40-59,99,,0.058373,,Analyse interne OC
+2022,Île-de-France,Non renseigné,60+,11,,0.006486,,Analyse interne OC
+2022,Île-de-France,femme,20-39,85,,0.050118,,Analyse interne OC
+2022,Île-de-France,femme,40-59,60,,0.035377,,Analyse interne OC
+2022,Île-de-France,femme,60+,1,,0.000590,,Analyse interne OC
+2022,Île-de-France,homme,20-39,166,,0.097877,,Analyse interne OC
+2022,Île-de-France,homme,40-59,105,,0.061910,,Analyse interne OC
+2022,Île-de-France,homme,60+,10,,0.005896,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,Non renseigné,20-39,18,,0.015652,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,Non renseigné,40-59,12,,0.010435,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,femme,20-39,13,,0.011304,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,femme,40-59,2,,0.001739,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,homme,20-39,25,,0.021739,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,homme,40-59,13,,0.011304,,Analyse interne OC
+2023,Auvergne-Rhône-Alpes,homme,60+,1,,0.000870,,Analyse interne OC
+2023,Bourgogne-Franche-Comté,Non renseigné,20-39,2,,0.001739,,Analyse interne OC
+2023,Bourgogne-Franche-Comté,femme,20-39,2,,0.001739,,Analyse interne OC
+2023,Bourgogne-Franche-Comté,femme,40-59,1,,0.000870,,Analyse interne OC
+2023,Bourgogne-Franche-Comté,homme,20-39,8,,0.006957,,Analyse interne OC
+2023,Bourgogne-Franche-Comté,homme,40-59,4,,0.003478,,Analyse interne OC
+2023,Bretagne,Non renseigné,20-39,13,,0.011304,,Analyse interne OC
+2023,Bretagne,Non renseigné,40-59,7,,0.006087,,Analyse interne OC
+2023,Bretagne,femme,20-39,3,,0.002609,,Analyse interne OC
+2023,Bretagne,femme,40-59,1,,0.000870,,Analyse interne OC
+2023,Bretagne,homme,20-39,5,,0.004348,,Analyse interne OC
+2023,Bretagne,homme,40-59,4,,0.003478,,Analyse interne OC
+2023,Centre-Val de Loire,Non renseigné,20-39,4,,0.003478,,Analyse interne OC
+2023,Centre-Val de Loire,Non renseigné,40-59,2,,0.001739,,Analyse interne OC
+2023,Centre-Val de Loire,femme,20-39,4,,0.003478,,Analyse interne OC
+2023,Centre-Val de Loire,homme,20-39,10,,0.008696,,Analyse interne OC
+2023,Centre-Val de Loire,homme,40-59,4,,0.003478,,Analyse interne OC
+2023,Centre-Val de Loire,homme,60+,1,,0.000870,,Analyse interne OC
+2023,DROM,Non renseigné,20-39,2,,0.001739,,Analyse interne OC
+2023,DROM,femme,20-39,1,,0.000870,,Analyse interne OC
+2023,DROM,femme,40-59,2,,0.001739,,Analyse interne OC
+2023,DROM,homme,20-39,1,,0.000870,,Analyse interne OC
+2023,DROM,homme,40-59,1,,0.000870,,Analyse interne OC
+2023,Grand Est,Non renseigné,20-39,11,,0.009565,,Analyse interne OC
+2023,Grand Est,Non renseigné,40-59,5,,0.004348,,Analyse interne OC
+2023,Grand Est,femme,20-39,7,,0.006087,,Analyse interne OC
+2023,Grand Est,homme,20-39,20,,0.017391,,Analyse interne OC
+2023,Grand Est,homme,40-59,6,,0.005217,,Analyse interne OC
+2023,Hauts-de-France,Non renseigné,20-39,14,,0.012174,,Analyse interne OC
+2023,Hauts-de-France,Non renseigné,40-59,5,,0.004348,,Analyse interne OC
+2023,Hauts-de-France,femme,20-39,13,,0.011304,,Analyse interne OC
+2023,Hauts-de-France,femme,40-59,5,,0.004348,,Analyse interne OC
+2023,Hauts-de-France,homme,20-39,22,,0.019130,,Analyse interne OC
+2023,Hauts-de-France,homme,40-59,9,,0.007826,,Analyse interne OC
+2023,Hauts-de-France,homme,60+,1,,0.000870,,Analyse interne OC
+2023,Normandie,Non renseigné,20-39,7,,0.006087,,Analyse interne OC
+2023,Normandie,Non renseigné,40-59,3,,0.002609,,Analyse interne OC
+2023,Normandie,femme,20-39,5,,0.004348,,Analyse interne OC
+2023,Normandie,femme,40-59,4,,0.003478,,Analyse interne OC
+2023,Normandie,homme,20-39,9,,0.007826,,Analyse interne OC
+2023,Normandie,homme,40-59,5,,0.004348,,Analyse interne OC
+2023,Nouvelle-Aquitaine,Non renseigné,20-39,14,,0.012174,,Analyse interne OC
+2023,Nouvelle-Aquitaine,Non renseigné,40-59,7,,0.006087,,Analyse interne OC
+2023,Nouvelle-Aquitaine,femme,20-39,6,,0.005217,,Analyse interne OC
+2023,Nouvelle-Aquitaine,femme,40-59,8,,0.006957,,Analyse interne OC
+2023,Nouvelle-Aquitaine,homme,20-39,23,,0.020000,,Analyse interne OC
+2023,Nouvelle-Aquitaine,homme,40-59,5,,0.004348,,Analyse interne OC
+2023,Occitanie,Non renseigné,20-39,16,,0.013913,,Analyse interne OC
+2023,Occitanie,Non renseigné,40-59,4,,0.003478,,Analyse interne OC
+2023,Occitanie,femme,20-39,4,,0.003478,,Analyse interne OC
+2023,Occitanie,femme,40-59,3,,0.002609,,Analyse interne OC
+2023,Occitanie,homme,20-39,13,,0.011304,,Analyse interne OC
+2023,Occitanie,homme,40-59,7,,0.006087,,Analyse interne OC
+2023,Pays de la Loire,Non renseigné,20-39,12,,0.010435,,Analyse interne OC
+2023,Pays de la Loire,Non renseigné,40-59,2,,0.001739,,Analyse interne OC
+2023,Pays de la Loire,femme,20-39,1,,0.000870,,Analyse interne OC
+2023,Pays de la Loire,femme,40-59,4,,0.003478,,Analyse interne OC
+2023,Pays de la Loire,homme,20-39,14,,0.012174,,Analyse interne OC
+2023,Pays de la Loire,homme,40-59,6,,0.005217,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,Non renseigné,20-39,13,,0.011304,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,Non renseigné,40-59,5,,0.004348,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,Non renseigné,60+,1,,0.000870,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,femme,20-39,7,,0.006087,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,femme,40-59,3,,0.002609,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,homme,20-39,26,,0.022609,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,homme,40-59,6,,0.005217,,Analyse interne OC
+2023,Provence-Alpes-Côte d'Azur,homme,60+,1,,0.000870,,Analyse interne OC
+2023,Île-de-France,Non renseigné,20-39,131,,0.113913,,Analyse interne OC
+2023,Île-de-France,Non renseigné,40-59,75,,0.065217,,Analyse interne OC
+2023,Île-de-France,Non renseigné,60+,5,,0.004348,,Analyse interne OC
+2023,Île-de-France,femme,20-39,109,,0.094783,,Analyse interne OC
+2023,Île-de-France,femme,40-59,39,,0.033913,,Analyse interne OC
+2023,Île-de-France,homme,20-39,177,,0.153913,,Analyse interne OC
+2023,Île-de-France,homme,40-59,78,,0.067826,,Analyse interne OC
+2023,Île-de-France,homme,60+,8,,0.006957,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,Non renseigné,20-39,2,,0.002353,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,Non renseigné,40-59,4,,0.004706,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,femme,20-39,13,,0.015294,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,femme,40-59,2,,0.002353,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,homme,20-39,47,,0.055294,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,homme,40-59,17,,0.020000,,Analyse interne OC
+2024,Auvergne-Rhône-Alpes,homme,60+,2,,0.002353,,Analyse interne OC
+2024,Bourgogne-Franche-Comté,femme,40-59,1,,0.001176,,Analyse interne OC
+2024,Bourgogne-Franche-Comté,homme,20-39,13,,0.015294,,Analyse interne OC
+2024,Bourgogne-Franche-Comté,homme,40-59,1,,0.001176,,Analyse interne OC
+2024,Bretagne,Non renseigné,20-39,3,,0.003529,,Analyse interne OC
+2024,Bretagne,femme,20-39,7,,0.008235,,Analyse interne OC
+2024,Bretagne,femme,40-59,2,,0.002353,,Analyse interne OC
+2024,Bretagne,homme,20-39,12,,0.014118,,Analyse interne OC
+2024,Bretagne,homme,40-59,6,,0.007059,,Analyse interne OC
+2024,Centre-Val de Loire,Non renseigné,20-39,1,,0.001176,,Analyse interne OC
+2024,Centre-Val de Loire,femme,20-39,2,,0.002353,,Analyse interne OC
+2024,Centre-Val de Loire,femme,40-59,1,,0.001176,,Analyse interne OC
+2024,Centre-Val de Loire,homme,20-39,16,,0.018824,,Analyse interne OC
+2024,Centre-Val de Loire,homme,40-59,6,,0.007059,,Analyse interne OC
+2024,DROM,femme,20-39,1,,0.001176,,Analyse interne OC
+2024,DROM,femme,40-59,2,,0.002353,,Analyse interne OC
+2024,DROM,homme,20-39,3,,0.003529,,Analyse interne OC
+2024,DROM,homme,40-59,3,,0.003529,,Analyse interne OC
+2024,Grand Est,Non renseigné,20-39,4,,0.004706,,Analyse interne OC
+2024,Grand Est,Non renseigné,40-59,4,,0.004706,,Analyse interne OC
+2024,Grand Est,femme,20-39,6,,0.007059,,Analyse interne OC
+2024,Grand Est,femme,40-59,1,,0.001176,,Analyse interne OC
+2024,Grand Est,homme,20-39,32,,0.037647,,Analyse interne OC
+2024,Grand Est,homme,40-59,11,,0.012941,,Analyse interne OC
+2024,Hauts-de-France,Non renseigné,20-39,5,,0.005882,,Analyse interne OC
+2024,Hauts-de-France,Non renseigné,40-59,2,,0.002353,,Analyse interne OC
+2024,Hauts-de-France,femme,20-39,5,,0.005882,,Analyse interne OC
+2024,Hauts-de-France,homme,20-39,33,,0.038824,,Analyse interne OC
+2024,Hauts-de-France,homme,40-59,13,,0.015294,,Analyse interne OC
+2024,Normandie,Non renseigné,20-39,3,,0.003529,,Analyse interne OC
+2024,Normandie,Non renseigné,40-59,1,,0.001176,,Analyse interne OC
+2024,Normandie,femme,20-39,4,,0.004706,,Analyse interne OC
+2024,Normandie,femme,40-59,3,,0.003529,,Analyse interne OC
+2024,Normandie,homme,20-39,10,,0.011765,,Analyse interne OC
+2024,Normandie,homme,40-59,3,,0.003529,,Analyse interne OC
+2024,Nouvelle-Aquitaine,Non renseigné,20-39,2,,0.002353,,Analyse interne OC
+2024,Nouvelle-Aquitaine,Non renseigné,40-59,1,,0.001176,,Analyse interne OC
+2024,Nouvelle-Aquitaine,femme,20-39,12,,0.014118,,Analyse interne OC
+2024,Nouvelle-Aquitaine,femme,40-59,7,,0.008235,,Analyse interne OC
+2024,Nouvelle-Aquitaine,homme,20-39,32,,0.037647,,Analyse interne OC
+2024,Nouvelle-Aquitaine,homme,40-59,11,,0.012941,,Analyse interne OC
+2024,Occitanie,Non renseigné,20-39,5,,0.005882,,Analyse interne OC
+2024,Occitanie,Non renseigné,40-59,1,,0.001176,,Analyse interne OC
+2024,Occitanie,femme,20-39,11,,0.012941,,Analyse interne OC
+2024,Occitanie,femme,40-59,4,,0.004706,,Analyse interne OC
+2024,Occitanie,homme,20-39,26,,0.030588,,Analyse interne OC
+2024,Occitanie,homme,40-59,9,,0.010588,,Analyse interne OC
+2024,Pays de la Loire,Non renseigné,20-39,5,,0.005882,,Analyse interne OC
+2024,Pays de la Loire,femme,20-39,5,,0.005882,,Analyse interne OC
+2024,Pays de la Loire,femme,40-59,4,,0.004706,,Analyse interne OC
+2024,Pays de la Loire,homme,20-39,9,,0.010588,,Analyse interne OC
+2024,Pays de la Loire,homme,40-59,4,,0.004706,,Analyse interne OC
+2024,Provence-Alpes-Côte d'Azur,Non renseigné,20-39,4,,0.004706,,Analyse interne OC
+2024,Provence-Alpes-Côte d'Azur,femme,20-39,9,,0.010588,,Analyse interne OC
+2024,Provence-Alpes-Côte d'Azur,femme,40-59,6,,0.007059,,Analyse interne OC
+2024,Provence-Alpes-Côte d'Azur,homme,20-39,21,,0.024706,,Analyse interne OC
+2024,Provence-Alpes-Côte d'Azur,homme,40-59,10,,0.011765,,Analyse interne OC
+2024,Île-de-France,Non renseigné,20-39,23,,0.027059,,Analyse interne OC
+2024,Île-de-France,Non renseigné,40-59,16,,0.018824,,Analyse interne OC
+2024,Île-de-France,femme,20-39,88,,0.103529,,Analyse interne OC
+2024,Île-de-France,femme,40-59,21,,0.024706,,Analyse interne OC
+2024,Île-de-France,homme,20-39,143,,0.168235,,Analyse interne OC
+2024,Île-de-France,homme,40-59,53,,0.062353,,Analyse interne OC
+2024,Île-de-France,homme,60+,1,,0.001176,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,Non renseigné,20-39,3,,0.003155,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,femme,20-39,16,,0.016824,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,femme,40-59,7,,0.007361,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,homme,20-39,49,,0.051525,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,homme,40-59,15,,0.015773,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,homme,60+,2,,0.002103,,Analyse interne OC
+2025,Bourgogne-Franche-Comté,femme,20-39,5,,0.005258,,Analyse interne OC
+2025,Bourgogne-Franche-Comté,femme,40-59,1,,0.001052,,Analyse interne OC
+2025,Bourgogne-Franche-Comté,homme,20-39,11,,0.011567,,Analyse interne OC
+2025,Bourgogne-Franche-Comté,homme,40-59,2,,0.002103,,Analyse interne OC
+2025,Bretagne,Non renseigné,60+,1,,0.001052,,Analyse interne OC
+2025,Bretagne,femme,20-39,4,,0.004206,,Analyse interne OC
+2025,Bretagne,femme,40-59,4,,0.004206,,Analyse interne OC
+2025,Bretagne,femme,60+,1,,0.001052,,Analyse interne OC
+2025,Bretagne,homme,20-39,14,,0.014721,,Analyse interne OC
+2025,Bretagne,homme,40-59,6,,0.006309,,Analyse interne OC
+2025,Centre-Val de Loire,femme,20-39,7,,0.007361,,Analyse interne OC
+2025,Centre-Val de Loire,femme,40-59,5,,0.005258,,Analyse interne OC
+2025,Centre-Val de Loire,homme,20-39,15,,0.015773,,Analyse interne OC
+2025,Centre-Val de Loire,homme,40-59,6,,0.006309,,Analyse interne OC
+2025,Centre-Val de Loire,homme,60+,2,,0.002103,,Analyse interne OC
+2025,DROM,Non renseigné,20-39,2,,0.002103,,Analyse interne OC
+2025,DROM,femme,20-39,1,,0.001052,,Analyse interne OC
+2025,DROM,femme,40-59,2,,0.002103,,Analyse interne OC
+2025,DROM,homme,20-39,7,,0.007361,,Analyse interne OC
+2025,DROM,homme,40-59,3,,0.003155,,Analyse interne OC
+2025,DROM,homme,60+,1,,0.001052,,Analyse interne OC
+2025,Grand Est,Non renseigné,20-39,3,,0.003155,,Analyse interne OC
+2025,Grand Est,Non renseigné,40-59,4,,0.004206,,Analyse interne OC
+2025,Grand Est,femme,20-39,10,,0.010515,,Analyse interne OC
+2025,Grand Est,femme,40-59,3,,0.003155,,Analyse interne OC
+2025,Grand Est,homme,20-39,26,,0.027340,,Analyse interne OC
+2025,Grand Est,homme,40-59,8,,0.008412,,Analyse interne OC
+2025,Hauts-de-France,Non renseigné,20-39,3,,0.003155,,Analyse interne OC
+2025,Hauts-de-France,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Hauts-de-France,femme,20-39,6,,0.006309,,Analyse interne OC
+2025,Hauts-de-France,femme,40-59,4,,0.004206,,Analyse interne OC
+2025,Hauts-de-France,homme,20-39,36,,0.037855,,Analyse interne OC
+2025,Hauts-de-France,homme,40-59,10,,0.010515,,Analyse interne OC
+2025,Normandie,Non renseigné,20-39,2,,0.002103,,Analyse interne OC
+2025,Normandie,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Normandie,femme,40-59,3,,0.003155,,Analyse interne OC
+2025,Normandie,homme,20-39,8,,0.008412,,Analyse interne OC
+2025,Normandie,homme,40-59,8,,0.008412,,Analyse interne OC
+2025,Nouvelle-Aquitaine,Non renseigné,20-39,3,,0.003155,,Analyse interne OC
+2025,Nouvelle-Aquitaine,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Nouvelle-Aquitaine,Non renseigné,60+,1,,0.001052,,Analyse interne OC
+2025,Nouvelle-Aquitaine,femme,20-39,7,,0.007361,,Analyse interne OC
+2025,Nouvelle-Aquitaine,femme,40-59,7,,0.007361,,Analyse interne OC
+2025,Nouvelle-Aquitaine,homme,20-39,24,,0.025237,,Analyse interne OC
+2025,Nouvelle-Aquitaine,homme,40-59,8,,0.008412,,Analyse interne OC
+2025,Occitanie,Non renseigné,20-39,1,,0.001052,,Analyse interne OC
+2025,Occitanie,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Occitanie,femme,20-39,14,,0.014721,,Analyse interne OC
+2025,Occitanie,femme,40-59,7,,0.007361,,Analyse interne OC
+2025,Occitanie,homme,20-39,34,,0.035752,,Analyse interne OC
+2025,Occitanie,homme,40-59,12,,0.012618,,Analyse interne OC
+2025,Pays de la Loire,Non renseigné,20-39,1,,0.001052,,Analyse interne OC
+2025,Pays de la Loire,femme,20-39,4,,0.004206,,Analyse interne OC
+2025,Pays de la Loire,femme,40-59,5,,0.005258,,Analyse interne OC
+2025,Pays de la Loire,homme,20-39,11,,0.011567,,Analyse interne OC
+2025,Pays de la Loire,homme,40-59,7,,0.007361,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,Non renseigné,20-39,3,,0.003155,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,Non renseigné,40-59,1,,0.001052,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,femme,20-39,16,,0.016824,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,femme,40-59,10,,0.010515,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,homme,20-39,39,,0.041009,,Analyse interne OC
+2025,Provence-Alpes-Côte d'Azur,homme,40-59,14,,0.014721,,Analyse interne OC
+2025,Île-de-France,Non renseigné,20-39,23,,0.024185,,Analyse interne OC
+2025,Île-de-France,Non renseigné,40-59,8,,0.008412,,Analyse interne OC
+2025,Île-de-France,femme,20-39,108,,0.113565,,Analyse interne OC
+2025,Île-de-France,femme,40-59,34,,0.035752,,Analyse interne OC
+2025,Île-de-France,homme,20-39,166,,0.174553,,Analyse interne OC
+2025,Île-de-France,homme,40-59,49,,0.051525,,Analyse interne OC
+2025,Île-de-France,homme,60+,3,,0.003155,,Analyse interne OC
+2025,Auvergne-Rhône-Alpes,femme,20-39,16,980849,0.018038,0.018552,Comparaison OC vs INSEE
+2025,Auvergne-Rhône-Alpes,femme,40-59,7,1065283,0.007892,0.020149,Comparaison OC vs INSEE
+2025,Auvergne-Rhône-Alpes,femme,60+,0,1248519,0.000000,0.023614,Comparaison OC vs INSEE
+2025,Auvergne-Rhône-Alpes,homme,20-39,49,987677,0.055242,0.018681,Comparaison OC vs INSEE
+2025,Auvergne-Rhône-Alpes,homme,40-59,15,1044367,0.016911,0.019753,Comparaison OC vs INSEE
+2025,Auvergne-Rhône-Alpes,homme,60+,2,1015863,0.002255,0.019214,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,femme,20-39,5,294176,0.005637,0.005564,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,femme,40-59,1,353435,0.001127,0.006685,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,femme,60+,0,485529,0.000000,0.009183,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,homme,20-39,11,306378,0.012401,0.005795,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,homme,40-59,2,349022,0.002255,0.006601,Comparaison OC vs INSEE
+2025,Bourgogne-Franche-Comté,homme,60+,0,397082,0.000000,0.007510,Comparaison OC vs INSEE
+2025,Bretagne,femme,20-39,4,371131,0.004510,0.007019,Comparaison OC vs INSEE
+2025,Bretagne,femme,40-59,4,442514,0.004510,0.008370,Comparaison OC vs INSEE
+2025,Bretagne,femme,60+,1,597567,0.001127,0.011302,Comparaison OC vs INSEE
+2025,Bretagne,homme,20-39,14,383817,0.015784,0.007259,Comparaison OC vs INSEE
+2025,Bretagne,homme,40-59,6,436960,0.006764,0.008265,Comparaison OC vs INSEE
+2025,Bretagne,homme,60+,0,481196,0.000000,0.009101,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,femme,20-39,7,276038,0.007892,0.005221,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,femme,40-59,5,330569,0.005637,0.006252,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,femme,60+,0,437459,0.000000,0.008274,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,homme,20-39,15,278389,0.016911,0.005265,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,homme,40-59,6,319807,0.006764,0.006049,Comparaison OC vs INSEE
+2025,Centre-Val de Loire,homme,60+,2,355150,0.002255,0.006717,Comparaison OC vs INSEE
+2025,Corse,femme,20-39,0,39630,0.000000,0.000750,Comparaison OC vs INSEE
+2025,Corse,femme,40-59,0,49026,0.000000,0.000927,Comparaison OC vs INSEE
+2025,Corse,femme,60+,0,62269,0.000000,0.001178,Comparaison OC vs INSEE
+2025,Corse,homme,20-39,0,37859,0.000000,0.000716,Comparaison OC vs INSEE
+2025,Corse,homme,40-59,0,47113,0.000000,0.000891,Comparaison OC vs INSEE
+2025,Corse,homme,60+,0,53186,0.000000,0.001006,Comparaison OC vs INSEE
+2025,DROM,femme,20-39,1,279364,0.001127,0.005284,Comparaison OC vs INSEE
+2025,DROM,femme,40-59,2,297651,0.002255,0.005630,Comparaison OC vs INSEE
+2025,DROM,femme,60+,0,269975,0.000000,0.005106,Comparaison OC vs INSEE
+2025,DROM,homme,20-39,7,226336,0.007892,0.004281,Comparaison OC vs INSEE
+2025,DROM,homme,40-59,3,254028,0.003382,0.004805,Comparaison OC vs INSEE
+2025,DROM,homme,60+,1,226474,0.001127,0.004283,Comparaison OC vs INSEE
+2025,Grand Est,femme,20-39,10,641515,0.011274,0.012133,Comparaison OC vs INSEE
+2025,Grand Est,femme,40-59,3,716353,0.003382,0.013549,Comparaison OC vs INSEE
+2025,Grand Est,femme,60+,0,885198,0.000000,0.016742,Comparaison OC vs INSEE
+2025,Grand Est,homme,20-39,26,657130,0.029312,0.012429,Comparaison OC vs INSEE
+2025,Grand Est,homme,40-59,8,702766,0.009019,0.013292,Comparaison OC vs INSEE
+2025,Grand Est,homme,60+,0,722908,0.000000,0.013673,Comparaison OC vs INSEE
+2025,Hauts-de-France,femme,20-39,6,719247,0.006764,0.013604,Comparaison OC vs INSEE
+2025,Hauts-de-France,femme,40-59,4,762577,0.004510,0.014423,Comparaison OC vs INSEE
+2025,Hauts-de-France,femme,60+,0,881251,0.000000,0.016668,Comparaison OC vs INSEE
+2025,Hauts-de-France,homme,20-39,36,715255,0.040586,0.013528,Comparaison OC vs INSEE
+2025,Hauts-de-France,homme,40-59,10,747455,0.011274,0.014137,Comparaison OC vs INSEE
+2025,Hauts-de-France,homme,60+,0,689429,0.000000,0.013040,Comparaison OC vs INSEE
+2025,Normandie,femme,20-39,0,368203,0.000000,0.006964,Comparaison OC vs INSEE
+2025,Normandie,femme,40-59,3,420803,0.003382,0.007959,Comparaison OC vs INSEE
+2025,Normandie,femme,60+,0,563376,0.000000,0.010656,Comparaison OC vs INSEE
+2025,Normandie,homme,20-39,8,375604,0.009019,0.007104,Comparaison OC vs INSEE
+2025,Normandie,homme,40-59,8,407565,0.009019,0.007709,Comparaison OC vs INSEE
+2025,Normandie,homme,60+,0,446846,0.000000,0.008452,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,femme,20-39,7,661011,0.007892,0.012502,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,femme,40-59,7,807982,0.007892,0.015282,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,femme,60+,0,1111750,0.000000,0.021027,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,homme,20-39,24,666721,0.027057,0.012610,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,homme,40-59,8,774437,0.009019,0.014648,Comparaison OC vs INSEE
+2025,Nouvelle-Aquitaine,homme,60+,0,895959,0.000000,0.016946,Comparaison OC vs INSEE
+2025,Occitanie,femme,20-39,14,699203,0.015784,0.013225,Comparaison OC vs INSEE
+2025,Occitanie,femme,40-59,7,801055,0.007892,0.015151,Comparaison OC vs INSEE
+2025,Occitanie,femme,60+,0,1049847,0.000000,0.019857,Comparaison OC vs INSEE
+2025,Occitanie,homme,20-39,34,699821,0.038331,0.013236,Comparaison OC vs INSEE
+2025,Occitanie,homme,40-59,12,763319,0.013529,0.014437,Comparaison OC vs INSEE
+2025,Occitanie,homme,60+,0,857509,0.000000,0.016219,Comparaison OC vs INSEE
+2025,Pays de la Loire,femme,20-39,4,443006,0.004510,0.008379,Comparaison OC vs INSEE
+2025,Pays de la Loire,femme,40-59,5,499999,0.005637,0.009457,Comparaison OC vs INSEE
+2025,Pays de la Loire,femme,60+,0,622140,0.000000,0.011767,Comparaison OC vs INSEE
+2025,Pays de la Loire,homme,20-39,11,455324,0.012401,0.008612,Comparaison OC vs INSEE
+2025,Pays de la Loire,homme,40-59,7,496039,0.007892,0.009382,Comparaison OC vs INSEE
+2025,Pays de la Loire,homme,60+,0,503053,0.000000,0.009515,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,femme,20-39,16,586070,0.018038,0.011085,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,femme,40-59,10,686031,0.011274,0.012975,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,femme,60+,0,920335,0.000000,0.017407,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,homme,20-39,39,570317,0.043968,0.010787,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,homme,40-59,14,644928,0.015784,0.012198,Comparaison OC vs INSEE
+2025,Provence-Alpes-Côte d'Azur,homme,60+,0,724189,0.000000,0.013697,Comparaison OC vs INSEE
+2025,Île-de-France,femme,20-39,108,1788676,0.121759,0.033831,Comparaison OC vs INSEE
+2025,Île-de-France,femme,40-59,34,1637644,0.038331,0.030974,Comparaison OC vs INSEE
+2025,Île-de-France,femme,60+,0,1512916,0.000000,0.028615,Comparaison OC vs INSEE
+2025,Île-de-France,homme,20-39,166,1709549,0.187148,0.032334,Comparaison OC vs INSEE
+2025,Île-de-France,homme,40-59,49,1574991,0.055242,0.029789,Comparaison OC vs INSEE
+2025,Île-de-France,homme,60+,3,1202559,0.003382,0.022745,Comparaison OC vs INSEE

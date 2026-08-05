@@ -8,6 +8,7 @@ Portfolio professionnel présentant des projets de data analyse sous une lecture
 - projet phare BottleNeck : qualité des données, analyse des ventes et des stocks, machine learning et usage critique de l’IA ;
 - détection automatique de faux billets : comparaison de modèles, classification, K-means et script de prédiction ;
 - pilotage d’un portefeuille de projets avec Power BI : Power Query, DAX, modèle en étoile, reporting interactif et RLS ;
+- analyse sociodémographique avec dbt : Snowflake, modèles SQL en couches, tests, export agrégé et benchmark INSEE ;
 - création et interrogation d’une base de données immobilière : modèle relationnel, SQL métier, qualité et RGPD ;
 - étude de cas : performance commerciale et marketing d’un e-commerce ;
 - compétences principales ;
@@ -43,6 +44,16 @@ Les données pédagogiques d’origine et le modèle sérialisé ne sont pas red
 - synthèse publique des données, méthodes, résultats, décisions et limites.
 
 Les données sources pédagogiques ne sont pas redistribuées. Le fichier PBIX conserve le rapport, les transformations, les mesures et le modèle nécessaires à l’examen du projet.
+
+## Preuves du projet sociodémographique dbt
+
+- workflow public contenant la configuration dbt, les modèles SQL, les sources et les tests YAML ;
+- export final agrégé utilisé pour l’analyse Power BI ;
+- support de présentation de quinze slides ;
+- documentation technique du pipeline, des règles d’harmonisation et des contrôles ;
+- synthèse publique du besoin, des données, des résultats, des recommandations et des limites.
+
+Les seeds internes comportant des identifiants individuels ne sont pas publiés. Le workflow public conserve le code et la structure nécessaires pour examiner la démarche sans exposer ces données.
 
 ## Preuves du projet SQL immobilier
 

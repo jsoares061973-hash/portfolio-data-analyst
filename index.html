@@ -258,6 +258,72 @@
         </div>
       </article>
 
+      <article class="featured-project" aria-labelledby="project-p8-title">
+        <div class="project-visual">
+          <img src="p8-dbt-pipeline.png" alt="Pipeline dbt et Snowflake organisé en sources, staging, intermediate, marts et export Power BI">
+          <span class="project-number">Projet 08 · dbt</span>
+        </div>
+
+        <div class="project-content">
+          <div class="project-kicker">
+            <span>dbt</span><span>Snowflake</span><span>SQL</span><span>Power BI</span><span>Data quality</span><span>RGPD</span>
+          </div>
+          <h3 id="project-p8-title">Fiabiliser un pipeline dbt et analyser l’évolution des profils étudiants</h3>
+          <p class="project-summary">
+            <strong>Contexte et besoin :</strong> OpenClassrooms souhaite comprendre l’évolution du profil des
+            étudiants Data entre 2022 et 2025 et comparer le profil 2025 à la population INSEE afin d’éclairer les
+            actions en faveur de l’accessibilité et de l’égalité des chances.
+          </p>
+          <p class="project-data"><strong>Données :</strong> 4 647 inscriptions pédagogiques rapprochées de données publiques INSEE 2025. L’analyse porte sur l’année d’entrée, le genre, la tranche d’âge et la région. Le CSV final est agrégé et ne contient aucun identifiant individuel ; les seeds internes ne sont pas publiés.</p>
+
+          <div class="fact-grid">
+            <div class="fact"><strong>4 647</strong><span>étudiants analysés entre 2022 et 2025</span></div>
+            <div class="fact"><strong>11</strong><span>modèles SQL structurés par couches dbt</span></div>
+            <div class="fact"><strong>71,7 %</strong><span>des étudiants 2025 âgés de 20 à 39 ans</span></div>
+            <div class="fact"><strong>41,1 %</strong><span>des étudiants 2025 en Île-de-France</span></div>
+          </div>
+
+          <div class="project-columns">
+            <div>
+              <h4>Démarche</h4>
+              <ul>
+                <li>Pipeline Snowflake/dbt séparé en sources, staging, intermediate, marts et export</li>
+                <li>Harmonisation du genre, des tranches d’âge, des régions et du périmètre INSEE comparable</li>
+                <li>Tests dbt et contrôles de cohérence entre modèles, CSV final et visualisations Power BI</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Résultats, impact et recommandations</h4>
+              <ul>
+                <li>Suivre la progression de la part des femmes et améliorer la collecte du genre</li>
+                <li>Examiner la concentration francilienne et mieux cibler les régions sous-représentées</li>
+                <li>Adapter l’accompagnement à un public majoritairement âgé de 20 à 39 ans</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="assessment">
+            <span aria-hidden="true">✓</span>
+            <p><strong>Trois compétences validées :</strong> agrégation et nettoyage des extractions, collecte conforme aux bonnes pratiques et contrôle de la cohérence des données. L’évaluation souligne la structure professionnelle du workflow et la cohérence entre code, export et présentation.</p>
+          </div>
+
+          <div class="resource-links" aria-label="Livrables du projet dbt sociodémographique">
+            <a class="resource-link resource-link-primary" href="p8-dbt-workflow.zip">Télécharger le workflow dbt</a>
+            <a class="resource-link" href="p8-final-aggregated.csv" target="_blank" rel="noopener">Consulter le CSV agrégé</a>
+            <a class="resource-link" href="p8-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
+            <a class="resource-link" href="p8-workflow-documentation.pdf" target="_blank" rel="noopener">Documentation technique</a>
+            <a class="resource-link" href="p8-readme.md" target="_blank" rel="noopener">README du projet</a>
+          </div>
+
+          <p class="project-limit">
+            <strong>Limites et prochaines pistes :</strong> le benchmark INSEE est limité à 2025 et à des catégories
+            harmonisées ; il contextualise les écarts sans établir de causalité. Les prochains contrôles à automatiser
+            concernent la non-négativité des effectifs, la recomposition des parts à environ 100 %, le périmètre
+            d’analyse et la conservation d’une preuve d’exécution de <code>dbt test</code>.
+          </p>
+        </div>
+      </article>
+
       <article class="featured-project" aria-labelledby="project-p5-title">
         <div class="project-visual">
           <img src="p5-sql-query.png" alt="Requête SQL comptant 31 378 appartements vendus au premier semestre 2020">
