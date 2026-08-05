@@ -13,12 +13,23 @@
         <span class="brand-mark">JA</span>
         <span>Joana Aubry</span>
       </a>
-      <nav aria-label="Navigation principale">
+      <nav class="desktop-nav" aria-label="Navigation principale">
         <a href="#projets">Projets</a>
         <a href="#competences">Compétences</a>
         <a href="#veille">Veille</a>
         <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
       </nav>
+      <details class="mobile-menu">
+        <summary aria-label="Ouvrir le menu de navigation">Menu</summary>
+        <nav aria-label="Navigation mobile">
+          <a href="#projets">Projets</a>
+          <a href="#competences">Compétences</a>
+          <a href="#veille">Veille</a>
+          <a href="#apropos">À propos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </details>
     </header>
 
     <main>
@@ -33,7 +44,8 @@
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projets">Découvrir mes projets</a>
-            <a class="button button-secondary" href="#apropos">Mon parcours</a>
+            <a class="button button-secondary" href="joana-aubry-cv-fr.pdf" target="_blank" rel="noopener">Voir mon CV</a>
+            <a class="button button-tertiary" href="https://www.linkedin.com/in/joana-soares-aubry" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
         <aside class="hero-panel" aria-label="Positionnement professionnel">
@@ -58,10 +70,21 @@
         </p>
       </section>
 
+      <nav class="project-index" aria-label="Accès rapide aux projets">
+        <a href="#project-bottleneck-title"><span>P13 / P6</span>BottleNeck &amp; IA</a>
+        <a href="#project-p12-title"><span>P12</span>Machine learning</a>
+        <a href="#project-p7-title"><span>P7</span>Power BI</a>
+        <a href="#project-p8-title"><span>P8</span>dbt &amp; Snowflake</a>
+        <a href="#project-p9-title"><span>P9</span>Ventes &amp; statistiques</a>
+        <a href="#project-p11-title"><span>P11</span>ACP &amp; clustering</a>
+        <a href="#project-p5-title"><span>P5</span>SQL &amp; RGPD</a>
+        <a href="#project-p2-title"><span>P2</span>Excel &amp; storytelling</a>
+      </nav>
+
       <article class="featured-project featured-project-wide" aria-labelledby="project-bottleneck-title">
         <div class="project-visual project-visual-wide">
           <img src="bottleneck-stock-segmentation.png" alt="Comparaison du nombre de produits et de la valeur du stock pour cinq profils de stock BottleNeck">
-          <span class="project-number">Projet phare · P6 enrichi par l’IA</span>
+          <span class="project-number">Projet phare · P13 — P6 enrichi par l’IA</span>
         </div>
 
         <div class="project-content">
@@ -84,6 +107,8 @@
             <div class="fact"><strong>≈ 109 971 €</strong><span>de stock exposé à un risque d’immobilisation</span></div>
           </div>
 
+          <details class="project-more" open>
+            <summary>Afficher ou masquer la démarche complète</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -109,10 +134,10 @@
           </div>
 
           <div class="resource-links" aria-label="Livrables du projet BottleNeck">
-            <a class="resource-link resource-link-primary" href="bottleneck-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link resource-link-primary" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/bottleneck-notebook.ipynb" target="_blank" rel="noopener">Voir le notebook sur GitHub</a>
             <a class="resource-link" href="bottleneck-demarche-ia.pdf" target="_blank" rel="noopener">Lire la démarche</a>
             <a class="resource-link" href="bottleneck-mini-formation.pdf" target="_blank" rel="noopener">Voir la mini-formation</a>
-            <a class="resource-link" href="bottleneck-readme.md" target="_blank" rel="noopener">README technique</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/bottleneck-readme.md" target="_blank" rel="noopener">README technique</a>
           </div>
 
           <p class="project-limit">
@@ -122,6 +147,7 @@
             étape consiste à constituer un historique et à valider les modèles
             chronologiquement.
           </p>
+          </details>
         </div>
       </article>
 
@@ -150,6 +176,8 @@
             <div class="fact"><strong>2</strong><span>faux billets non détectés</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -175,10 +203,10 @@
           </div>
 
           <div class="resource-links" aria-label="Livrables du projet de détection de faux billets">
-            <a class="resource-link resource-link-primary" href="p12-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link resource-link-primary" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p12-notebook.ipynb" target="_blank" rel="noopener">Voir le notebook sur GitHub</a>
             <a class="resource-link" href="p12-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
-            <a class="resource-link" href="p12-prediction.py" target="_blank" rel="noopener">Consulter le script</a>
-            <a class="resource-link" href="p12-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p12-prediction.py" target="_blank" rel="noopener">Consulter le script</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p12-readme.md" target="_blank" rel="noopener">README du projet</a>
           </div>
 
           <p class="project-limit">
@@ -187,6 +215,7 @@
             de nouvelles données et de réentraîner le modèle si nécessaire. Le K-means pourrait être caractérisé
             plus finement par des distributions et des boîtes à moustaches par cluster.
           </p>
+          </details>
         </div>
       </article>
 
@@ -218,6 +247,8 @@
             <div class="fact"><strong>1,13 M$</strong><span>d’impact financier cumulé sur le Top 10 à risque</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -244,7 +275,7 @@
 
           <div class="resource-links" aria-label="Livrables du projet Power BI">
             <a class="resource-link resource-link-primary" href="p7-dashboard.pbix">Télécharger le fichier Power BI</a>
-            <a class="resource-link" href="p7-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p7-readme.md" target="_blank" rel="noopener">README du projet</a>
             <a class="resource-link" href="p7-product-strategy-canvas.jpg" target="_blank" rel="noopener">Product Strategy Canvas</a>
             <a class="resource-link" href="p7-star-schema.jpg" target="_blank" rel="noopener">Voir le modèle de données</a>
           </div>
@@ -255,6 +286,7 @@
             Une évolution de la structure des sources peut affecter les transformations. La prochaine étape est
             d’organiser l’actualisation, de tester la RLS après publication et d’étudier les tendances historiques.
           </p>
+          </details>
         </div>
       </article>
 
@@ -283,6 +315,8 @@
             <div class="fact"><strong>41,1 %</strong><span>des étudiants 2025 en Île-de-France</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -310,10 +344,10 @@
 
           <div class="resource-links" aria-label="Livrables du projet dbt sociodémographique">
             <a class="resource-link resource-link-primary" href="p8-dbt-workflow.zip">Télécharger le workflow dbt</a>
-            <a class="resource-link" href="p8-final-aggregated.csv" target="_blank" rel="noopener">Consulter le CSV agrégé</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p8-final-aggregated.csv" target="_blank" rel="noopener">Consulter le CSV agrégé</a>
             <a class="resource-link" href="p8-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
             <a class="resource-link" href="p8-workflow-documentation.pdf" target="_blank" rel="noopener">Documentation technique</a>
-            <a class="resource-link" href="p8-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p8-readme.md" target="_blank" rel="noopener">README du projet</a>
           </div>
 
           <p class="project-limit">
@@ -322,6 +356,7 @@
             concernent la non-négativité des effectifs, la recomposition des parts à environ 100 %, le périmètre
             d’analyse et la conservation d’une preuve d’exécution de <code>dbt test</code>.
           </p>
+          </details>
         </div>
       </article>
 
@@ -350,6 +385,8 @@
             <div class="fact"><strong>15,91 %</strong><span>du CA porté par 2,92 % de clients atypiques</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -375,9 +412,9 @@
           </div>
 
           <div class="resource-links" aria-label="Livrables de l’analyse commerciale Lapage">
-            <a class="resource-link resource-link-primary" href="p9-notebook.ipynb">Télécharger le notebook</a>
+            <a class="resource-link resource-link-primary" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p9-notebook.ipynb" target="_blank" rel="noopener">Voir le notebook sur GitHub</a>
             <a class="resource-link" href="p9-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
-            <a class="resource-link" href="p9-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p9-readme.md" target="_blank" rel="noopener">README du projet</a>
           </div>
 
           <p class="project-limit">
@@ -385,6 +422,7 @@
             saisonnière ni prévision. Les marges, stocks, campagnes, données de trafic et statuts BtoB/BtoC ne sont
             pas disponibles. Les relations mesurées sont des associations statistiques et non des liens de causalité.
           </p>
+          </details>
         </div>
       </article>
 
@@ -413,6 +451,8 @@
             <div class="fact"><strong>6</strong><span>marchés retenus en priorité 1</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -439,10 +479,10 @@
           </div>
 
           <div class="resource-links" aria-label="Livrables de l’étude de marché internationale">
-            <a class="resource-link resource-link-primary" href="p11-analysis-notebook.ipynb">Notebook d’analyse</a>
-            <a class="resource-link" href="p11-preparation-notebook.ipynb">Notebook de préparation</a>
+            <a class="resource-link resource-link-primary" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p11-analysis-notebook.ipynb" target="_blank" rel="noopener">Notebook d’analyse</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p11-preparation-notebook.ipynb" target="_blank" rel="noopener">Notebook de préparation</a>
             <a class="resource-link" href="p11-presentation.pdf" target="_blank" rel="noopener">Voir la présentation</a>
-            <a class="resource-link" href="p11-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p11-readme.md" target="_blank" rel="noopener">README du projet</a>
           </div>
 
           <p class="project-limit">
@@ -451,6 +491,7 @@
             hypothèses métier et l’indicateur bio reste un proxy. Une validation qualitative de la demande, des prix,
             des circuits de distribution, de la concurrence et des exigences sanitaires est nécessaire avant décision.
           </p>
+          </details>
         </div>
       </article>
 
@@ -479,6 +520,8 @@
             <div class="fact"><strong>≈ 11 136 €</strong><span>par m² observés à Paris</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -506,7 +549,7 @@
           <div class="resource-links" aria-label="Livrables du projet SQL immobilier">
             <a class="resource-link resource-link-primary" href="p5-data-dictionary.xlsx">Télécharger le dictionnaire</a>
             <a class="resource-link" href="p5-relational-schema.png" target="_blank" rel="noopener">Voir le schéma relationnel</a>
-            <a class="resource-link" href="p5-readme.md" target="_blank" rel="noopener">README du projet</a>
+            <a class="resource-link" href="https://github.com/jsoares061973-hash/portfolio-data-analyst/blob/main/p5-readme.md" target="_blank" rel="noopener">README du projet</a>
           </div>
 
           <p class="project-limit">
@@ -516,6 +559,7 @@
             et d’actualiser la base. Le ZIP évalué ne comportant pas de script SQL autonome, aucun fichier reconstruit
             n’est présenté comme livrable original.
           </p>
+          </details>
         </div>
       </article>
 
@@ -544,6 +588,8 @@
             <div class="fact"><strong>0,67</strong><span>corrélation temps d’achat / panier</span></div>
           </div>
 
+          <details class="project-more">
+            <summary>Voir la démarche, les résultats et les livrables</summary>
           <div class="project-columns">
             <div>
               <h4>Démarche</h4>
@@ -574,6 +620,7 @@
             passé sur le site et le montant du panier. Un suivi régulier permettra
             de vérifier la stabilité des tendances et l’effet des actions marketing.
           </p>
+          </details>
         </div>
       </article>
 
@@ -612,17 +659,38 @@
         <p class="eyebrow">À propos</p>
         <h2>Joana Aubry</h2>
         <p>
-          Data Analyst issue d’un parcours confirmé en finance, contrôle et
-          supply chain. J’associe compréhension opérationnelle, rigueur des
+          Data Analyst issue de plus de 25 ans d’expérience en finance,
+          contrôle de gestion industriel et supply chain dans des environnements
+          internationaux. J’associe compréhension opérationnelle, rigueur des
           contrôles et analyse de données pour produire des restitutions utiles
           aux décideurs.
         </p>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Échangeons sur vos enjeux finance, data et performance.</h2>
+          <p>
+            Disponible pour des opportunités en France, avec une priorité pour
+            les environnements hybrides ou à distance en Auvergne-Rhône-Alpes.
+          </p>
+        </div>
+        <div class="contact-actions" aria-label="Coordonnées professionnelles">
+          <a class="button button-primary" href="mailto:jsoares061973@gmail.com">Envoyer un e-mail</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/joana-soares-aubry" target="_blank" rel="noopener">Voir mon LinkedIn</a>
+          <a class="button button-secondary" href="joana-aubry-cv-fr.pdf" target="_blank" rel="noopener">Consulter mon CV</a>
+        </div>
       </section>
     </main>
 
     <footer>
       <span>Portfolio Data Analyst · Joana Aubry</span>
-      <a href="#accueil">Retour en haut ↑</a>
+      <div class="footer-links">
+        <a href="mailto:jsoares061973@gmail.com">E-mail</a>
+        <a href="https://www.linkedin.com/in/joana-soares-aubry" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#accueil">Retour en haut ↑</a>
+      </div>
     </footer>
   </body>
 </html>
