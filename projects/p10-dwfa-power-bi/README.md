@@ -6,9 +6,9 @@ Construire un tableau de bord Power BI permettant à DWFA de prioriser ses inter
 
 ## Livrables
 
-- [`p10-dwfa-dashboard.pdf`](p10-dwfa-dashboard.pdf) — export des dix pages du dashboard.
-- [`p10-dwfa-presentation.pdf`](p10-dwfa-presentation.pdf) — contexte, méthode, résultats et recommandations.
-- [`p10-dwfa-blueprint.pdf`](p10-dwfa-blueprint.pdf) — besoins utilisateurs, indicateurs, visuels et exigences techniques.
+- [`reports/dashboard.pdf`](reports/dashboard.pdf) — export des dix pages du dashboard.
+- [`reports/presentation.pdf`](reports/presentation.pdf) — contexte, méthode, résultats et recommandations.
+- [`reports/blueprint.pdf`](reports/blueprint.pdf) — besoins utilisateurs, indicateurs, visuels et exigences techniques.
 
 ## Données
 

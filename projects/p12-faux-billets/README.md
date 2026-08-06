@@ -33,7 +33,7 @@ La régression logistique est retenue pour son compromis entre performance, stab
 - 297 billets correctement classés sur 300 ;
 - deux faux billets classés comme authentiques.
 
-Le modèle final est entraîné sur les 1 500 billets et sauvegardé par le notebook dans `models/modele_detection_billets.joblib`. Le script `p12-prediction.py` charge ensuite ce modèle pour traiter un fichier CSV ou un billet unique.
+En lançant Jupyter depuis la racine du projet, le modèle final est entraîné sur les 1 500 billets et sauvegardé dans `models/modele_detection_billets.joblib`. Le script [`src/prediction.py`](src/prediction.py) charge ensuite ce modèle pour traiter un fichier CSV ou un billet unique.
 
 ## Environnement indicatif
 
@@ -43,6 +43,13 @@ Le modèle final est entraîné sur les 1 500 billets et sauvegardé par le note
 - matplotlib et seaborn ;
 - joblib ;
 - Jupyter Notebook.
+
+## Fichiers publics
+
+- [`notebooks/detection-faux-billets.ipynb`](notebooks/detection-faux-billets.ipynb) — préparation, comparaison des modèles et évaluation ;
+- [`src/prediction.py`](src/prediction.py) — prédiction pour un billet ou un fichier CSV ;
+- [`reports/presentation.pdf`](reports/presentation.pdf) — démarche et résultats ;
+- [`images/selection-modele.png`](images/selection-modele.png) — synthèse de la sélection du modèle.
 
 ## Limites et prochaines pistes
 

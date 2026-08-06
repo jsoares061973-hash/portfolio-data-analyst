@@ -72,8 +72,9 @@ L'évaluateur souligne la pertinence des recommandations, la justification des c
 
 ## Fichiers publics
 
-- notebook de préparation, nettoyage et enrichissement ;
-- notebook d'ACP, de clustering et de priorisation ;
-- présentation de synthèse destinée au COMEX.
+- [`notebooks/preparation-donnees.ipynb`](notebooks/preparation-donnees.ipynb) — préparation, nettoyage et enrichissement ;
+- [`notebooks/analyse-marche.ipynb`](notebooks/analyse-marche.ipynb) — ACP, clustering et priorisation ;
+- [`reports/presentation.pdf`](reports/presentation.pdf) — synthèse destinée au COMEX ;
+- [`images/priorisation-marches.png`](images/priorisation-marches.png) — shortlist et score de priorisation.
 
 Les notebooks conservent leurs sorties afin de rendre la démarche et les résultats directement examinables. Leur réexécution complète nécessite les sources de données décrites dans le notebook de préparation.

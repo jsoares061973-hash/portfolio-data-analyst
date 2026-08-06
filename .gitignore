@@ -1,0 +1,29 @@
+# Données sources non publiées
+projects/p04-securite-alimentaire/population.csv
+projects/p04-securite-alimentaire/sous_nutrition.csv
+projects/p04-securite-alimentaire/dispo_alimentaire.csv
+projects/p04-securite-alimentaire/aide_alimentaire.csv
+projects/p06-p13-bottleneck-ia/erp.xlsx
+projects/p06-p13-bottleneck-ia/web.xlsx
+projects/p06-p13-bottleneck-ia/liaison.xlsx
+projects/p06-p13-bottleneck-ia/exports/
+projects/p09-ventes-statistiques/data/*.csv
+projects/p12-faux-billets/billets.csv
+projects/p12-faux-billets/billets_production.csv
+projects/p12-faux-billets/models/
+
+# Modèles et secrets locaux
+*.joblib
+.env
+.env.*
+
+# Environnements Python
+.venv/
+venv/
+
+# Cache et fichiers temporaires
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+Thumbs.db

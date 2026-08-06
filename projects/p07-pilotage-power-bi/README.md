@@ -55,7 +55,7 @@ La compétence « Produire un reporting en analysant les visualisations pour fac
 
 ## Fichiers publiés
 
-- `p7-dashboard.pbix` : fichier Power BI final ;
-- `p7-powerbi-global-view.png` : vue globale du dashboard ;
-- `p7-product-strategy-canvas.jpg` : cadrage produit ;
-- `p7-star-schema.jpg` : aperçu du modèle de données.
+- [`dashboard/portfolio-projets.pbix`](dashboard/portfolio-projets.pbix) : fichier Power BI final ;
+- [`images/vue-globale.png`](images/vue-globale.png) : vue globale du dashboard ;
+- [`images/product-strategy-canvas.jpg`](images/product-strategy-canvas.jpg) : cadrage produit ;
+- [`images/modele-etoile.jpg`](images/modele-etoile.jpg) : aperçu du modèle de données.

@@ -49,3 +49,11 @@ L’évaluation a validé :
 Le benchmark INSEE est limité à 2025 et à des catégories harmonisées. Il fournit une contextualisation, pas une relation causale. La prochaine étape est de renforcer les tests sur les marts finaux : non-négativité de `NB_STUDENTS`, recomposition automatisée des parts à environ 100 %, contrôle de `PERIMETRE_ANALYSE` et conservation d’une preuve d’exécution de `dbt test`.
 
 Le workflow public contient le code SQL, les fichiers YAML et la configuration dbt, mais exclut volontairement les seeds internes comportant des identifiants.
+
+## Fichiers publics
+
+- [`src/workflow-dbt.zip`](src/workflow-dbt.zip) — configuration, modèles SQL, sources et tests YAML ;
+- [`data/export-agrege.csv`](data/export-agrege.csv) — restitution agrégée sans identifiant individuel ;
+- [`reports/presentation.pdf`](reports/presentation.pdf) — synthèse métier et résultats ;
+- [`reports/documentation-technique.pdf`](reports/documentation-technique.pdf) — pipeline, règles d’harmonisation et contrôles ;
+- [`images/pipeline-dbt.png`](images/pipeline-dbt.png) — vue d’ensemble de l’architecture.

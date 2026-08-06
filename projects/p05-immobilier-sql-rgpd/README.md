@@ -42,6 +42,12 @@ L’évaluation a validé :
 2. la réalisation de requêtes SQL répondant à des problématiques métier dans le respect du RGPD ;
 3. la gestion d’une base relationnelle, de ses clés et de requêtes de complexité progressive.
 
+## Preuves publiées
+
+- [`data/dictionnaire-donnees.xlsx`](data/dictionnaire-donnees.xlsx) — tables, champs, types, clés et règles de gestion ;
+- [`images/schema-relationnel.png`](images/schema-relationnel.png) — modèle normalisé et relations entre les tables ;
+- [`images/requete-sql.png`](images/requete-sql.png) — exemple de requête métier et résultat obtenu.
+
 ## Limites et prochaines pistes
 
 L’analyse couvre le premier semestre 2020 et repose sur des données pédagogiques. Certaines petites surfaces peuvent fortement influencer les prix au mètre carré. Une suite professionnelle consisterait à versionner les requêtes dans des fichiers SQL séparés, automatiser les contrôles de chargement et actualiser la base avec des périodes plus récentes.

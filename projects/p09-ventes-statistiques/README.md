@@ -112,21 +112,21 @@ Une prochaine version pourrait intégrer :
 
 ## Livrables publiés
 
-- [`p9-notebook.ipynb`](p9-notebook.ipynb) : analyse Python complète avec sorties conservées ;
-- [`p9-presentation.pdf`](p9-presentation.pdf) : présentation de la démarche, des résultats et des recommandations ;
-- [`p9-sales-diagnosis.png`](p9-sales-diagnosis.png) : diagnostic synthétique de la baisse observée en février 2023 ;
-- `p9-readme.md` : synthèse publique orientée recruteur, manager et client.
+- [`notebooks/analyse-ventes-clients.ipynb`](notebooks/analyse-ventes-clients.ipynb) : analyse Python complète avec sorties conservées ;
+- [`reports/presentation.pdf`](reports/presentation.pdf) : présentation de la démarche, des résultats et des recommandations ;
+- [`images/diagnostic-ventes.png`](images/diagnostic-ventes.png) : diagnostic synthétique de la baisse observée en février 2023 ;
+- [`README.md`](README.md) : synthèse publique orientée recruteur, manager et client.
 
 ## Exécution locale
 
-1. Télécharger le notebook et créer à côté un dossier `data/` contenant `customers.csv`, `products.csv` et `Transactions.csv`.
+1. Créer un dossier `data/` à la racine de ce projet, puis y placer `customers.csv`, `products.csv` et `Transactions.csv`.
 2. Créer un environnement Python et installer les dépendances :
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Ouvrir `p9-notebook.ipynb` dans Jupyter Notebook ou JupyterLab.
+3. Ouvrir `notebooks/analyse-ventes-clients.ipynb` dans Jupyter Notebook ou JupyterLab.
 
 ## Compétences démontrées
 

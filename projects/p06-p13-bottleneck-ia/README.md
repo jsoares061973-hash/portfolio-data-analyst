@@ -27,15 +27,28 @@ Le notebook vérifie leur présence avant le chargement et interrompt explicitem
 ## Organisation recommandée
 
 ```text
-P13_BottleNeck/
-├── bottleneck-notebook.ipynb
-├── bottleneck-readme.md
-├── bottleneck-requirements.txt
-├── erp.xlsx
-├── web.xlsx
-├── liaison.xlsx
+p06-p13-bottleneck-ia/
+├── README.md
+├── requirements.txt
+├── notebooks/
+│   └── analyse-bottleneck.ipynb
+├── reports/
+│   ├── demarche-ia.pdf
+│   └── mini-formation.pdf
+├── images/
+│   └── segmentation-stocks.png
+├── erp.xlsx                         # source locale non publiée
+├── web.xlsx                         # source locale non publiée
+├── liaison.xlsx                     # source locale non publiée
 └── exports/                         # créé automatiquement
 ```
+
+## Livrables publiés
+
+- [`notebooks/analyse-bottleneck.ipynb`](notebooks/analyse-bottleneck.ipynb) — analyse reproductible avec sorties conservées ;
+- [`reports/demarche-ia.pdf`](reports/demarche-ia.pdf) — méthode, contrôles et usage critique de l’IA ;
+- [`reports/mini-formation.pdf`](reports/mini-formation.pdf) — support de sensibilisation métier ;
+- [`images/segmentation-stocks.png`](images/segmentation-stocks.png) — comparaison des profils de stock.
 
 ## Environnement de référence
 
@@ -62,15 +75,15 @@ Sous Windows :
 ```powershell
 .venv\Scripts\activate
 python -m pip install --upgrade pip
-python -m pip install -r bottleneck-requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 Sélectionner ensuite l'environnement `.venv` comme kernel Python dans VS Code ou Jupyter.
 
 ## Exécution
 
-1. Vérifier que les trois fichiers sources sont présents à côté du notebook.
-2. Ouvrir `bottleneck-notebook.ipynb`.
+1. Vérifier que les trois fichiers sources sont présents à la racine du projet.
+2. Ouvrir `notebooks/analyse-bottleneck.ipynb` en conservant la racine du projet comme répertoire de travail.
 3. Sélectionner le kernel de l'environnement `.venv`.
 4. Exécuter **Restart Kernel + Run All**.
 5. Vérifier que les contrôles finaux affichent le statut `Conforme`.

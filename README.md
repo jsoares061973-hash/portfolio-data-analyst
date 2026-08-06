@@ -1,85 +1,55 @@
 # Portfolio Data Analyst — Joana Aubry
 
-Portfolio professionnel présentant des projets de data analyse sous une lecture orientée recruteur, manager et client.
+Portfolio professionnel de projets d’analyse de données, conçu pour une lecture rapide par un recruteur, un manager ou un client.
 
-## Contenu actuel
+**Positionnement :** Data Analyst · Finance & Supply Chain  
+**Portfolio en ligne :** [jsoares061973-hash.github.io/portfolio-data-analyst](https://jsoares061973-hash.github.io/portfolio-data-analyst/)  
+**Contact :** [LinkedIn](https://www.linkedin.com/in/joana-soares-aubry) · [E-mail](mailto:jsoares061973@gmail.com)
 
-- présentation et positionnement professionnel ;
-- projet phare BottleNeck : qualité des données, analyse des ventes et des stocks, machine learning et usage critique de l’IA ;
-- détection automatique de faux billets : comparaison de modèles, classification, K-means et script de prédiction ;
-- pilotage d’un portefeuille de projets avec Power BI : Power Query, DAX, modèle en étoile, reporting interactif et RLS ;
-- analyse sociodémographique avec dbt : Snowflake, modèles SQL en couches, tests, export agrégé et benchmark INSEE ;
-- analyse commerciale et comportement client d’un e-commerce : séries temporelles, concentration client et tests statistiques ;
-- étude de marché internationale : cadre PESTEL, ACP, CAH, k-means et priorisation de marchés d’exportation ;
-- création et interrogation d’une base de données immobilière : modèle relationnel, SQL métier, qualité et RGPD ;
-- étude de cas : performance commerciale et marketing d’un e-commerce ;
-- compétences principales ;
-- démarche de veille métier et technologique.
+## Projets
 
-Le portfolio sera enrichi progressivement avec une sélection hiérarchisée des autres projets réalisés pendant la formation.
+| Projet | Besoin métier | Technologies et méthodes | Preuves publiées |
+|---|---|---|---|
+| [P6/P13 — BottleNeck & IA](projects/p06-p13-bottleneck-ia/) | Fiabiliser les données, piloter les ventes et les stocks | Python, pandas, Pandera, scikit-learn, IA responsable | Notebook, documentation, mini-formation, visualisation |
+| [P10 — Accès à l’eau](projects/p10-dwfa-power-bi/) | Prioriser les interventions WASH | Power BI, Power Query, DAX, modélisation | Dashboard, présentation, blueprint |
+| [P12 — Faux billets](projects/p12-faux-billets/) | Sécuriser une décision de contrôle | Python, classification, K-means, scikit-learn | Notebook, script de prédiction, présentation |
+| [P7 — Pilotage de projets](projects/p07-pilotage-power-bi/) | Détecter les dérives d’un portefeuille | Power BI, Power Query, DAX, RLS | PBIX, canvas, modèle en étoile |
+| [P8 — Pipeline sociodémographique](projects/p08-dbt-snowflake/) | Produire une donnée fiable et documentée | dbt, Snowflake, SQL, tests, Power BI | Workflow, export agrégé, présentation, documentation |
+| [P9 — Ventes & clients](projects/p09-ventes-statistiques/) | Expliquer la performance commerciale | Python, séries temporelles, tests statistiques | Notebook, présentation, diagnostic |
+| [P11 — Marché international](projects/p11-marche-international/) | Prioriser des marchés d’exportation | ACP, CAH, k-means, PESTEL | Deux notebooks, présentation, shortlist |
+| [P4 — Sécurité alimentaire](projects/p04-securite-alimentaire/) | Mesurer la sous-nutrition et les disponibilités alimentaires | Python, données publiques, analyse exploratoire | Notebook, présentation, visualisation |
+| [P5 — Immobilier, SQL & RGPD](projects/p05-immobilier-sql-rgpd/) | Structurer et interroger des données foncières | SQL, modèle relationnel, qualité, RGPD | Dictionnaire, schéma relationnel, requête documentée |
+| [P2 — Performance e-commerce](projects/p02-ecommerce-excel/) | Suivre ventes, trafic, conversion et clients | Excel, visualisation, storytelling | Synthèse publique et visualisation |
 
-## Preuves BottleNeck publiées
+> La numérotation reprend le parcours de formation. Le P3 correspond à un bilan avec le mentor et ne constitue pas un projet à publier. Les travaux P6 et P13 sont réunis dans une seule étude de cas enrichie.
 
-- notebook Python final avec sorties conservées ;
-- documentation de la démarche IA au format PDF ;
-- mini-formation métier au format PDF ;
-- README technique et fichier de dépendances ;
-- visualisation de la segmentation des profils de stock.
+## Structure du dépôt
 
-Les fichiers Excel pédagogiques d’origine ne sont pas redistribués dans le portfolio public.
+```text
+.
+├── index.html                 # page GitHub Pages
+├── styles.css                 # design responsive
+├── assets/
+│   └── cv/                    # CV public
+├── docs/
+│   └── architecture.md        # construction technique du portfolio
+└── projects/
+    └── pXX-nom-du-projet/
+        ├── README.md          # synthèse recruteur/client
+        ├── notebooks/         # analyses reproductibles
+        ├── reports/           # présentations et rapports
+        ├── images/            # preuves visuelles
+        ├── data/              # données publiques ou agrégées
+        └── src/               # scripts et workflows
+```
 
-## Preuves du projet de détection de faux billets
+Chaque dossier ne contient que les sous-dossiers utiles au projet concerné.
 
-- notebook Python final avec sorties conservées ;
-- présentation de la démarche et des résultats au format PDF ;
-- script de prédiction pour un fichier CSV ou un billet unique ;
-- synthèse publique des données, méthodes, résultats et limites.
+## Principes de publication
 
-Les données pédagogiques d’origine et le modèle sérialisé ne sont pas redistribués. Le notebook documente leur utilisation et la génération du modèle.
+- les données pédagogiques brutes, personnelles ou confidentielles ne sont pas redistribuées ;
+- les résultats sont accompagnés du contexte, de la démarche, de recommandations et de limites ;
+- les notebooks publiés conservent leurs sorties pour permettre une lecture sans données sources ;
+- les ressources du site utilisent des chemins relatifs afin de rester compatibles avec GitHub Pages.
 
-## Preuves du projet de pilotage Power BI
-
-- fichier Power BI final comportant onze pages de reporting et de documentation ;
-- vue globale des coûts, alertes, livrables et projets à risque ;
-- Product Strategy Canvas centré sur trois profils utilisateurs ;
-- modèle de données en étoile et préparation documentée avec Power Query ;
-- synthèse publique des données, méthodes, résultats, décisions et limites.
-
-Les données sources pédagogiques ne sont pas redistribuées. Le fichier PBIX conserve le rapport, les transformations, les mesures et le modèle nécessaires à l’examen du projet.
-
-## Preuves du projet sociodémographique dbt
-
-- workflow public contenant la configuration dbt, les modèles SQL, les sources et les tests YAML ;
-- export final agrégé utilisé pour l’analyse Power BI ;
-- support de présentation de quinze slides ;
-- documentation technique du pipeline, des règles d’harmonisation et des contrôles ;
-- synthèse publique du besoin, des données, des résultats, des recommandations et des limites.
-
-Les seeds internes comportant des identifiants individuels ne sont pas publiés. Le workflow public conserve le code et la structure nécessaires pour examiner la démarche sans exposer ces données.
-
-## Preuves de l’analyse commerciale Lapage
-
-- notebook Python final avec sorties conservées, contrôles qualité et analyse temporelle ;
-- analyse de la concentration du chiffre d’affaires et des profils clients atypiques ;
-- tests statistiques documentés avec mesure de l’intensité des relations ;
-- présentation de dix-neuf slides et synthèse publique des résultats, recommandations et limites.
-
-Les données pédagogiques d’origine ne sont pas redistribuées. Le notebook précise les trois fichiers nécessaires à sa réexécution.
-
-## Preuves de l’étude de marché internationale
-
-- notebook de préparation, nettoyage, harmonisation et enrichissement des sources ouvertes ;
-- notebook d’ACP, de classification hiérarchique, de k-means et de priorisation ;
-- présentation COMEX décrivant la méthodologie, les résultats, la shortlist et les limites ;
-- synthèse publique du besoin, des données, de la démarche, des recommandations et des prochaines étapes.
-
-Les données sources ne sont pas redistribuées. Les notebooks conservent leurs sorties et documentent les sources nécessaires à leur réexécution.
-
-## Preuves du projet SQL immobilier
-
-- dictionnaire des données décrivant quatre tables, leurs types, leurs clés et leurs règles de gestion ;
-- schéma relationnel normalisé reliant les biens, les ventes, les communes et la population ;
-- capture d’une requête SQL et de son résultat ;
-- synthèse publique du besoin, des données, de la démarche, des résultats et des limites.
-
-Les données foncières pédagogiques ne sont pas redistribuées. Le ZIP évalué ne contenant pas de script SQL autonome, aucun script reconstruit n’est présenté comme livrable original.
+La construction technique du site est décrite dans [`docs/architecture.md`](docs/architecture.md).

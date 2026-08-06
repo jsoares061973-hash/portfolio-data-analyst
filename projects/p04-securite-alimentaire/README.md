@@ -6,8 +6,8 @@ Analyser des données publiques de la FAO afin de comprendre les écarts entre d
 
 ## Livrables
 
-- [`p4-food-security-notebook.ipynb`](p4-food-security-notebook.ipynb) — notebook Python exécuté et documenté.
-- [`p4-food-security-presentation.pdf`](p4-food-security-presentation.pdf) — synthèse de l’analyse et des recommandations.
+- [`notebooks/analyse-securite-alimentaire.ipynb`](notebooks/analyse-securite-alimentaire.ipynb) — notebook Python exécuté et documenté.
+- [`reports/presentation.pdf`](reports/presentation.pdf) — synthèse de l’analyse et des recommandations.
 
 ## Données
 
@@ -18,7 +18,7 @@ Quatre fichiers pédagogiques issus de données publiques FAO :
 - disponibilité et utilisation alimentaires ;
 - aide alimentaire reçue.
 
-Les fichiers sources ne sont pas redistribués dans ce portfolio. Le notebook attend les fichiers `population.csv`, `sous_nutrition.csv`, `dispo_alimentaire.csv` et `aide_alimentaire.csv` dans son répertoire d’exécution.
+Les fichiers sources ne sont pas redistribués dans ce portfolio. Pour réexécuter l’analyse, lancer Jupyter depuis la racine du projet et y placer `population.csv`, `sous_nutrition.csv`, `dispo_alimentaire.csv` et `aide_alimentaire.csv` avant d’ouvrir le notebook.
 
 ## Démarche
 
@@ -50,4 +50,4 @@ L’analyse met en évidence une disponibilité calorique mondiale théoriquemen
 
 ## Environnement
 
-Python 3.12.9 avec pandas, NumPy, Matplotlib, Seaborn, Plotly et Jupyter. Les dépendances principales sont listées dans [`p4-requirements.txt`](p4-requirements.txt).
+Python 3.12.9 avec pandas, NumPy, Matplotlib, Seaborn, Plotly et Jupyter. Les dépendances principales sont listées dans [`requirements.txt`](requirements.txt).
