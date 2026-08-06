@@ -53,3 +53,4 @@ Chaque dossier ne contient que les sous-dossiers utiles au projet concerné.
 - les ressources du site utilisent des chemins relatifs afin de rester compatibles avec GitHub Pages.
 
 La construction technique du site est décrite dans [`docs/architecture.md`](docs/architecture.md).
+<!-- Trigger GitHub Pages redeploy -->
