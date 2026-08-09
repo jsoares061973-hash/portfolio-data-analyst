@@ -2,8 +2,6 @@
 
 Ce projet reprend le notebook du projet 6 du parcours Data Analyst et l'améliore dans le cadre du projet 13. La démarche associe fiabilisation des données, analyses métier, comparaisons méthodologiques, POC prédictif, validation automatisée et documentation critique de l'utilisation de l'IA.
 
-> **Version portfolio public.** Le notebook, l'environnement et la documentation sont fournis comme preuves de réalisation. Les trois fichiers Excel pédagogiques d'origine ne sont pas redistribués ; ils sont nécessaires pour réexécuter le notebook à partir des sources.
-
 ## Objectifs
 
 - rapprocher les données ERP, Web et la table de liaison ;
@@ -12,7 +10,7 @@ Ce projet reprend le notebook du projet 6 du parcours Data Analyst et l'amélior
 - comparer plusieurs méthodes statistiques et outils de qualité ;
 - tester la faisabilité d'une prédiction du volume mensuel des ventes ;
 - documenter les anomalies, décisions, limites et recommandations métier ;
-- Un POC de segmentation non supervisée par K-means a également été réalisé sur les ventes, le stock et sa valeur au prix d’achat. La solution à deux clusters présente la meilleure séparation statistique, avec un coefficient de silhouette de 0,697, mais reste trop générale pour l’usage métier. Une solution à cinq clusters, dont le coefficient de silhouette atteint 0,541, est retenue pour sa capacité à distinguer les profils de rotation, de rupture et d’immobilisation financière. Cette segmentation complète les règles métier sans les remplacer et ne constitue pas une prédiction des ruptures futures.
+- expérimenter une segmentation non supervisée des profils de stock et de rotation.
 
 ## Fichiers sources
 
@@ -27,28 +25,15 @@ Le notebook vérifie leur présence avant le chargement et interrompt explicitem
 ## Organisation recommandée
 
 ```text
-p06-p13-bottleneck-ia/
+P13_BottleNeck/
+├── P13_BottleNeck_ameliore.ipynb
 ├── README.md
 ├── requirements.txt
-├── notebooks/
-│   └── analyse-bottleneck.ipynb
-├── reports/
-│   ├── demarche-ia.pdf
-│   └── mini-formation.pdf
-├── images/
-│   └── segmentation-stocks.png
-├── erp.xlsx                         # source locale non publiée
-├── web.xlsx                         # source locale non publiée
-├── liaison.xlsx                     # source locale non publiée
+├── erp.xlsx
+├── web.xlsx
+├── liaison.xlsx
 └── exports/                         # créé automatiquement
 ```
-
-## Livrables publiés
-
-- [`notebooks/analyse-bottleneck.ipynb`](notebooks/analyse-bottleneck.ipynb) — analyse reproductible avec sorties conservées ;
-- [`reports/demarche-ia.pdf`](reports/demarche-ia.pdf) — méthode, contrôles et usage critique de l’IA ;
-- [`reports/mini-formation.pdf`](reports/mini-formation.pdf) — support de sensibilisation métier ;
-- [`images/segmentation-stocks.png`](images/segmentation-stocks.png) — comparaison des profils de stock.
 
 ## Environnement de référence
 
@@ -82,8 +67,8 @@ Sélectionner ensuite l'environnement `.venv` comme kernel Python dans VS Code o
 
 ## Exécution
 
-1. Vérifier que les trois fichiers sources sont présents à la racine du projet.
-2. Ouvrir `notebooks/analyse-bottleneck.ipynb` en conservant la racine du projet comme répertoire de travail.
+1. Vérifier que les trois fichiers sources sont présents à côté du notebook.
+2. Ouvrir `P13_BottleNeck_ameliore.ipynb`.
 3. Sélectionner le kernel de l'environnement `.venv`.
 4. Exécuter **Restart Kernel + Run All**.
 5. Vérifier que les contrôles finaux affichent le statut `Conforme`.
@@ -94,9 +79,17 @@ Le notebook préserve les données brutes dans des DataFrames dédiés et crée 
 
 - **Prix atypiques** : IQR retenu comme méthode principale ; Z-score conservé comme contrôle complémentaire.
 - **Corrélations** : Spearman retenu pour l'interprétation principale ; Pearson conservé comme contrôle complémentaire.
+- **Prédiction des ventes** : référence naïve, régression linéaire, régression de Poisson et forêt aléatoire comparées par validation croisée à cinq partitions.
+- **Régression linéaire** : conservée comme référence interprétable, mais non retenue en raison de performances insuffisantes, d’un R² de −0,08 et de dix prédictions négatives.
+- **Modèle retenu pour le POC** : régression de Poisson sans le stock de fin de mois, avec une MAE de 2,46 unités, un RMSE de 3,31 et un R² de 0,36.
+- **Interprétabilité** : les coefficients du modèle de Poisson ont été analysés afin d’estimer l’association entre les variables explicatives et le volume des ventes.
+- **Scénario avec stock** : écarté en raison d’un risque de fuite temporelle.
 - **Prédiction des ventes** : référence naïve, régression de Poisson et forêt aléatoire comparées par validation croisée à cinq partitions.
 - **Modèle retenu pour le POC** : régression de Poisson sans le stock de fin de mois, avec une MAE de 2,46 unités et un R² de 0,36.
 - **Scénario avec stock** : écarté en raison d'un risque de fuite temporelle.
+
+
+
 - **Qualité des données** : contrôles Pandas complétés par un schéma Pandera portant sur huit colonnes.
 - **Great Expectations** : étudié mais différé, car disproportionné pour trois fichiers mensuels de faible volumétrie.
 
@@ -115,6 +108,10 @@ Principaux résultats :
 - 20 des 22 ruptures actives sont isolées dans un cluster spécifique ;
 - 28 produits, soit 3,9 % du catalogue analysé, concentrent 123 148,73 € de stock ;
 - ce groupe représente 44,4 % de la valeur du stock analysé et rassemble 24 des 27 risques d’immobilisation.
+
+L’analyse descriptive par catégorie montre que le cluster « Surstock / capital immobilisé » est composé à 96,4 % de Champagne, tandis que le cluster « Ruptures actives » est composé à 95,0 % de vins. Le cluster « Stock nul » est composé à 95,8 % de vins et à 4,2 % de whisky.
+
+Les catégories de produits ont été croisées avec les clusters après l’apprentissage afin de faciliter leur interprétation métier. Elles n’ont pas été utilisées pour constituer les groupes et ces associations ne doivent pas être interprétées comme des relations causales.
 
 Le clustering complète les règles métier mais ne les remplace pas. Il ne constitue pas une prédiction des ruptures futures.
 
@@ -147,8 +144,8 @@ Les fichiers CSV utilisent le séparateur `;`, la virgule comme séparateur déc
 - validation croisée `KFold` avec cinq partitions, `shuffle=True` et `random_state=42` ;
 - paramètres aléatoires documentés pour la forêt aléatoire ;
 - relecture des fichiers exportés et réconciliation automatique des principaux totaux ;
-- modèle et prédictions rechargés et contrôlés après export.
-- Le clustering est réexécuté avec `KMeans(n_clusters=5, n_init=20, random_state=42)`. La transformation logarithmique, la standardisation et les variables utilisées sont définies explicitement dans le notebook.
+- modèle et prédictions rechargés et contrôlés après export ;
+- clustering réexécuté avec KMeans(n_clusters=5, n_init=20, random_state=42), selon des transformations et variables explicitement documentées.
 
 ## Limites
 
@@ -158,9 +155,10 @@ Les fichiers CSV utilisent le séparateur `;`, la virgule comme séparateur déc
 - prix HT estimé avec un taux de TVA uniforme de 20 % ;
 - anomalies nécessitant une validation métier avant toute correction dans les systèmes sources ;
 - POC prédictif insuffisant pour un déploiement opérationnel.
-- les clusters décrivent une seule période et un stock observé au 31 octobre ; leur stabilité doit être vérifiée sur plusieurs mois avant toute utilisation récurrente ;
-- les libellés métier sont attribués après l’apprentissage afin d’interpréter les groupes et n’influencent pas leur constitution.
+- clusters décrivant une seule période et un stock observé au 31 octobre, dont la stabilité reste à vérifier sur plusieurs mois ;
+- libellés métier attribués après l’apprentissage afin d’interpréter les groupes, sans influencer leur constitution.
 
 ## Utilisation de l'IA
 
 ChatGPT/Codex a été utilisé comme assistant de code et de documentation pour explorer des options, proposer des implémentations, comparer les méthodes et structurer les contrôles. Les propositions ont été exécutées localement, vérifiées par des résultats chiffrés et conservées uniquement après décision de l'analyste. Les traces représentatives figurent dans la documentation du projet.
+
